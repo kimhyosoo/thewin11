@@ -1,0 +1,3638 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>네이버 블로그 :: 누구나 쉽게 표현하는 세상</title>
+	<link rel="stylesheet" type="text/css" href="/nversioning/SectionMain-675777.css" charset="UTF-8" />
+	
+
+
+<script type="text/javascript" src="/nversioning/SectionHeader-1160227.js" charset="UTF-8"></script>
+	
+<style>
+.tpl {display:none}
+
+/* 100624_1 */
+.layer_pop{position:absolute;top:100px;left:7px;width:362px;_width:360px;height:120px;_height:118px;border:1px solid #888;background:#fff;}
+.layer_pop strong{display:block;padding:20px 0 0 19px}
+.layer_pop p{line-height:16px;padding:16px 0 5px 19px;color:#666}
+.layer_pop .arrow{display:inline-block;margin-left:19px;padding-right:8px;font-size:11px;letter-spacing:-1px;color:#666 !important;background:url(http://blogimgs.naver.net/nblog/mylog/buddy_guide/bul_arrow.gif) 100% 3px no-repeat;text-decoration:underline}
+.layer_pop .close{position:absolute;top:8px;right:8px}
+/* //100624_1 */
+</style>
+
+	<script type="text/javascript">
+		var isBlogMe = 'false';
+		var isLoggedIn = 'true';
+		var blogURL = 'http://blog.naver.com';
+		var isPageError = false;
+	</script>
+</head>
+<body id="index">
+
+
+
+
+
+
+
+
+
+
+
+<div class="inspection" id="errorNoticeArea" style="display:none;"><div class="sub_inspection">
+	<p><strong>일시적인 오류로 블로그홈의 일부 화면만 제공됩니다.</strong><br />
+	이용에 불편을 드리는 점 양해 부탁드리며 신속히 복구하겠습니다.</p>
+</div></div><div id="wrap">
+
+
+
+
+
+
+<div id="header">
+	<div id="gnb" class="login_area">
+		
+	</div>
+
+	<div id="snb_wrap">
+		<h1> <a href="http://www.naver.com" class="sp_common logo"><span class="blind">NAVER</span></a> <a href="/SectionMain.nhn" class="sp_common blog"><span class="blind">블로그</span></a> </h1>
+
+		<form onsubmit="return false;">
+		<fieldset>
+		<legend>검색</legend>
+			<div class="snb_search_box">
+				<div class="snb_search_box_sub">
+					<!-- Search Option -->
+					<div id="searchOption" class="search_option_box off" onmouseup="showSearchOption();">
+						<div class="search_option">
+							<input type="radio" name="rdo_type2" id="selectedType" class="rdo_type" value="post" />
+							<label for="rdo_type" id="selectedOption">
+							
+								포스트
+								
+								
+							
+							</label>
+						</div>
+						<ul id="searchOptionLayer" class="search_option_layer">
+							<li><input type="radio" name="rdo_type2" id="rdoPost" class="rdo_type" /><label for="rdo_type1" id="post" class="" onMouseOver="this.className='bgcolor';" onMouseOut="this.className='';">포스트</label></li>
+							<li><input type="radio" name="rdo_type2" id="rdoBlog" class="rdo_type" /><label for="rdo_type3" id="blog" class="" onMouseOver="this.className='bgcolor';" onMouseOut="this.className='';">블로그</label></li>
+							<li><input type="radio" name="rdo_type2" id="rdoId" class="rdo_type" /><label for="rdo_type4" id="id" class="" onMouseOver="this.className='bgcolor';" onMouseOut="this.className='';">별명&middot;아이디</label></li>
+						</ul>
+					</div>
+					<!-- //Search Option -->
+					<input type="text" title="검색" id="gnb.keyword" accesskey="s" value="" class="snb_search_text" onfocus="javascript:focusOnGreenWindow();" onkeydown="javascript:searchByEnterGNB(event);" style="ime-mode:active;" />
+				</div>
+				<input type="image" id="blogSearch" src="http://blogimgs.naver.net/section/btn_srch2.gif" alt="검색" class="btn_search" onclick="javascript:clickcr(this,'lnb.search','','',event);javascript:goSearchFromGNB();" />
+				<a href="" id="gnbSearch" onclick="javascript:gnbSearchNaver();" target="_blank" class="btn_search"><span class="sp_etcetera"><em class="blind">통합검색</em></span></a>
+				<input type="hidden" name="type" id="type" value="post">
+			</div>
+		</fieldset>
+		</form>
+
+		<!-- 블로그앱 간편설치 -->
+		<div class="app_mobile">
+			<div class="app_tx">
+				<a href="#" class="app_set _installBlogAppPush _param(true|Gnb) _stopIntallAppEvent" onclick="clickcr(this,'STA.app','','',event);"><strong>블로그앱</strong> 간편설치하기</a>
+			</div>
+			<div id="installBlogAppPushGnb" class="ly_app_set" style="display: none">
+				<p class="set_tt">
+					<strong>블로그앱</strong> 설치 URL을<br>네이버앱 알림으로 전송했습니다.
+				</p>
+				<p class="set_tx">
+					알림이 오지 않는다면,<br>네이버앱을 최신버전으로 업데이트 하거나,<br>로그아웃상태인지 확인해주세요
+				</p>
+				<div class="ly_app_btn">
+					<a href="#" class="btn_send _installBlogAppPushRetry _param(true|Gnb) _stopIntallAppEvent" onclick="clickcr(this,'STA.app','','',event);">다시 보내기</a> <a href="#" class="btn_cfm _installBlogAppPushClose _param(true|Gnb) _stopIntallAppEvent">확인</a>
+				</div>
+				<a href="#" class="ly_clse _installBlogAppPushClose _param(true|Gnb) _stopIntallAppEvent">닫기</a>
+			</div>
+		</div>
+		<!--// 블로그앱 간편설치 -->
+
+		<div id="plus_mobile" class="plus_mobile"> <a href="#" class="sp_etcetera h_mobie"><span class="blind">+mobile</span></a>
+			<div id="ly_mobile" class="ly_mobile" style="display:none;right:0;top:23px">
+				<p>모바일에 최적화된 <strong>블로그</strong>를<br>체험하세요</p>
+				<dl>
+				<dt>모바일 웹</dt>
+				<dd>
+					<a target="_blank" href="http://mobile.naver.com/mobileweb/blog.nhn" class="btn1 _introWeb" onClick="clickcr(this,'STA*m.web','','',event);">소개</a>
+					<a target="_blank" href="http://section.blog.naver.com/popup/pop_mobile_blog.jsp" class="btn2 _expWeb _returnFalse" onClick="clickcr(this,'STA*m.try','','',event);return false;">체험하기</a>
+				</dd>
+				<dt>모바일 애플리케이션</dt>
+				<dd><a target="_blank" href="http://mobile.naver.com/application/blog.nhn" class="btn1 _introApp" onClick="clickcr(this,'STA*m.app','','',event);">소개</a></dd>
+				</dl>
+				<div><a target="_blank" href="http://webmsg.naver.com/popup_send/send_url.php?code=blog&SMSID=ESW00017&MMSID=EMG00005" onClick="clickcr(this,'STA*m.sms','','',event);return false;" class="_sendSMS _returnFalse">URL 문자 전송</a></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="lnb_menu">
+		<ul class="menu" id="gnbMenu">
+			<li><a href="/SectionMain.nhn" class="sp_common home_on _eachMenu" onclick="clickcr(this,'lnb.home','','',event)"><strong class="blind">블로그 홈</strong></a></li>
+			<li>
+				<span>모두의 블로그 하위메뉴 시작</span>
+				<ul>
+					<li><a href="/sub/PostListByDirectory.nhn?option.directoryAlias=movie" id="topMenu1" class="sp_common g_menu1 _mouseOver _mouseOut _click _param(g_menu1|g_menu1_on) _eachMenu" onclick="clickcr(this,'lnb.movie','','1',event);"><span class="blind">영화</span></a></li>
+                    <li><a href="/sub/PostListByDirectory.nhn?option.directoryAlias=book" id="topMenu2" class="sp_common g_menu2 _mouseOver _mouseOut _click _param(g_menu2|g_menu2_on) _eachMenu" onclick="clickcr(this,'lnb.book','','2',event);"><span class="blind">책</span></a></li>
+                    <li><a href="/sub/PostListByDirectory.nhn?option.directoryAlias=recipe" id="topMenu3" class="sp_common g_menu3 _mouseOver _mouseOut _click _param(g_menu3|g_menu3_on) _eachMenu" onclick="clickcr(this,'lnb.cook','','3',event);"><span class="blind">요리</span></a></li>
+                    <li><a href="/sub/PostListByDirectory.nhn?option.directoryAlias=domestic" id="topMenu4" class="sp_common g_menu4 _mouseOver _mouseOut _click _param(g_menu4|g_menu4_on) _eachMenu" onclick="clickcr(this,'lnb.domestic','','4',event);"><span class="blind">국내여행</span></a></li>
+                    <li><a href="/sub/PostListByDirectory.nhn?option.directoryAlias=it" id="topMenu5" class="sp_common g_menu5 _mouseOver _mouseOut _click _param(g_menu5|g_menu5_on) _eachMenu" onclick="clickcr(this,'lnb.computer','','6',event);"><span class="blind">IT</span></a></li>
+					<li>
+						<a href="#" id="topMenu6" onclick="DirectoryList.toggleLayer('Gnb');clickcr(this,'lnb.alltheme','','',event);return false;" class="sp_common g_menu6 _mouseOver _mouseOut _eachMenu _param(g_menu6|g_menu6_on)"><span class="blind">모든메뉴</span></a>
+						<div class="all_theme" id="all_theme_layer_gnb" style="display:none"><div id="all_theme_list_gnb" class="sub_all_theme"></div></div>
+					</li>
+				</ul>
+			</li>
+			<li><a href="/sub/PowerBlogAsEvent.nhn" id="topMenu7" class="sp_common g_menu7 _mouseOver _mouseOut _click _param(g_menu7|g_menu7_on) _eachMenu" onclick="clickcr(this,'lnb.powerblog','','',event);"><span class="blind">파워 블로그</span></a></li>
+            <li><a href="/talentdonation/TalentDonationView.nhn" id="topMenu8" class="sp_common g_menu8 _mouseOver _mouseOut _click _param(g_menu8|g_menu8_on) _eachMenu" onclick="clickcr(this,'lnb.donator','','',event);"><span class="blind">재능기부 블로그</span></a></li>
+            <li><a href="/challengeprogram/ChallengeProgramSelector.nhn" id="topMenu9" class="sp_common g_menu9 _mouseOver _mouseOut _click _param(g_menu9|g_menu9_on) _eachMenu" onclick="clickcr(this,'lnb.challenge','','',event);"><span class="blind">챌린지 프로그램</span></a></li>
+		</ul>
+		
+		<ul class="menu2">
+			<li><a href="http://apps.naver.com" target="_blank" class="sp_common g_menu2_1"><span class="blind">소셜게임</span></a><span class="new"></span></li>
+            <li><a href="http://item.naver.com" class="sp_common g_menu2_2"><span class="blind">아이템팩토리</span></a></li>
+		</ul>
+		
+		
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+var nsc="blog.main"; 							
+var gnb_service="section.blog"; 				
+var gnb_logout="http://section.blog.naver.com"; 
+var gnb_template="gnb_community_utf8";			
+var gnb_searchbox="off"; 						
+var gnb_shortnick="off";						
+
+
+
+$Fn(function changeSearchOption(e) {
+	var oElEvent = e.element;
+	var optionValue = oElEvent.id;
+
+	if(optionValue != "searchOptionLayer") {
+		var optionText = $Element(oElEvent).text();
+
+		$('selectedType').value = optionValue;
+		$('selectedOption').firstChild.nodeValue = optionText;
+		$('type').value = optionValue;
+
+		$('gnb.keyword').focus();
+	}
+}).attach($("searchOptionLayer"),"click");
+
+$Fn(function(){
+	getGNB();
+}).attach(window, "load");
+</script>
+
+
+<script charset="utf-8" type="text/javascript" src="http://static.gn.naver.net/template/gnb_community_utf8.nhn?20121016"></script>
+
+<script type="text/javascript" src="/nversioning/SectionGNB-723120.js" charset="UTF-8"></script>
+
+	<div class="spot">
+		
+
+
+
+		<div class="today_topic" id="todayTopicArea">
+			<div id="topic_keyword_top_left" class="topic_keyword">
+				<div class="topic_hot">
+                    <h3 class="h_hot">HOT Topic</h3>
+                            <ul id="hot_topic_keyword">
+                            </ul>
+				</div>
+				<div class="topic_top">
+                    <h3 class="h_top">오늘의 Top <a href="#" class="top_prev _btn_theme_prev _returnFalse">이전</a><a href="#" class="top_next _btn_theme_next _returnFalse">다음</a></h3>
+                            <ul id="theme_topic_keyword">
+                            </ul>
+               	</div>
+            </div>
+
+			<div class="topiclist_wrapper"><!--090915추가-->
+
+	
+
+			<div id="keyword_10074" class="topiclist" style="display:none;" >
+				<dl class="topic">
+
+	
+		
+
+		
+		
+		
+
+				
+				<dt class="photo">
+					<a href="#" onclick="clickcr(this,'tpc*1.thumb','90000003_00000000000000175284D3AD','',event);" class="_showPreview _hidePreview _eachClick _todayTopicLog2 _param(post_10074_100168684461|img_100168684461|http://blogthumb2.naver.net/20121005_48/yestear_134943698165102nv0_JPEG/꽃게,홍잭살,아비가일떡_023.JPG?type=s70|10074|yestear|100168684461|) _iPadReturnFalse _returnFalse" name="todayTopicLink" id="keywordThumbnail_10074"></a>
+					<span id="thumbnailUrl_10074" style="display:none">http://blogthumb2.naver.net/20121005_48/yestear_134943698165102nv0_JPEG/꽃게,홍잭살,아비가일떡_023.JPG?type=s140</span>
+
+					<span class="author">
+					<a href="http://blog.naver.com/GoBlog.nhn?userId=yestear" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_00000000000000175284D3AD','',event);">
+					스마일줌마님의 블로그</a></span>
+
+					
+					<div id="post_10074_100168684461" class="_previewArea" style="display:none; left:0; top:143px;">
+						
+						<h4 ><a href="#" onclick="clickcr(this,'tpc*1.thumb','90000003_00000000000000175284D3AD','',event);" class="_todayTopicLog _param(10074|yestear|100168684461|) _returnFalse">[감기차]다산원의 홍잭살 & 케리케리- 허니 앤 진저와 대추 넣은 차수</a></h4>
+
+						<p>
+		
+							<a href="#" onclick="clickcr(this,'tpc*1.thumb','90000003_00000000000000175284D3AD','',event);" class="thumb _todayTopicLog _param(10074|yestear|100168684461|) _returnFalse"" id="img_100168684461"></a>
+		
+							<a href="#" onclick="clickcr(this,'tpc*1.thumb','90000003_00000000000000175284D3AD','',event);" class="_todayTopicLog _param(10074|yestear|100168684461|) _returnFalse">&#65279; 다산원의 홍잭살 오늘도 줌마는 [감기차]를 만들었어요. 오늘 프리티카페에 올린 다산원의 마중님의 맛난 차수 끓여내는 포스팅을 보고 저도 응용해보았답니다~~ㅎ 다산원의 마...</a>
+						</p>
+
+		
+					</div>
+
+				</dt>
+				<!-- //토픽 썸네일 (썸네일 없을경우 삭제) -->
+	
+
+				<dt class="tit">
+	
+
+	
+		
+		
+						<span>전통차</span><a href="/sub/SearchTopicPost.nhn?option.keywordSeq=10074&directorySeq=10074" class="sp_etcetera" name="morePostListByDirectory"><span class="blind">더보기</span></a>
+		
+	
+				</dt>
+				<dd>
+					<ul class="subtopic">
+
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10074_120170796135|img_120170796135|http://blogthumb2.naver.net/20121012_203/houseofmusic_1350017126277CGp8w_JPEG/IMG_0029.jpg?type=s70|10074|houseofmusic|120170796135|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*1.post','90000003_000000000000001BFABCD467','1',event);" name="todayTopicLink">생강차 만들기</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=houseofmusic" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_000000000000001BFABCD467','',event);">
+						houseofmusic</a></span></p>
+
+						
+						<div id="post_10074_120170796135" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000001BFABCD467','1',event);" class="_todayTopicLog _param(10074|houseofmusic|120170796135|) _returnFalse">생강차 만들기</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10074|houseofmusic|120170796135|) _returnFalse" id="img_120170796135" onclick="clickcr(this,'tpc*1.post','90000003_000000000000001BFABCD467','1',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000001BFABCD467','1',event);" class="_todayTopicLog _param(10074|houseofmusic|120170796135|) _returnFalse">'가을'.. 이 깊어갑니다.날이 차가워지니.. 따듯한 차 한잔이 아쉬워집니다.저녁..'생강차' 한잔을 만들어 봅니다.올가을.. 계절이 정확하내요.. 햇상강이 나와 있기에.. 부드러운 껍질을...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10074_60172663577|img_60172663577|http://blogthumb2.naver.net/20120923_85/sunsun1890_1348396617035FDi24_JPEG/070.JPG?type=s70|10074|sunsun1890|60172663577|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E0291FB19','2',event);" name="todayTopicLink">껍질메밀로 메밀차 만드는법</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=sunsun1890" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_000000000000000E0291FB19','',event);">
+						해피니스</a></span></p>
+
+						
+						<div id="post_10074_60172663577" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E0291FB19','2',event);" class="_todayTopicLog _param(10074|sunsun1890|60172663577|) _returnFalse">껍질메밀로 메밀차 만드는법</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10074|sunsun1890|60172663577|) _returnFalse" id="img_60172663577" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E0291FB19','2',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E0291FB19','2',event);" class="_todayTopicLog _param(10074|sunsun1890|60172663577|) _returnFalse">껍질메밀로 메밀차 만드는법 메밀차 만들기 메밀이 혈관을 튼튼하게 해 준다구 하죠 그 외에 다양한 메밀의 효능이 있구요. 다이어트에 도움을 준다구 하기도 하죠 봉평팜에서 메밀과 메...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10074_150115629749|img_150115629749|http://blogthumb2.naver.net/20110808_284/sollbi_1312773513978W49JG_JPEG/%BB%E7%C1%F8_028.jpg?type=s70|10074|sollbi|150115629749|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000022F396BAB5','3',event);" name="todayTopicLink">둥글레차 만들기</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=sollbi" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_0000000000000022F396BAB5','',event);">
+						바이올렛</a></span></p>
+
+						
+						<div id="post_10074_150115629749" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000022F396BAB5','3',event);" class="_todayTopicLog _param(10074|sollbi|150115629749|) _returnFalse">둥글레차 만들기</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10074|sollbi|150115629749|) _returnFalse" id="img_150115629749" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000022F396BAB5','3',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000022F396BAB5','3',event);" class="_todayTopicLog _param(10074|sollbi|150115629749|) _returnFalse">5월의 봄볕좋은 어느날,,,,,,, 안동댐부근 산에서 동네언냐랑 이틀을 꼬박 캐온 둥글레~~ 몇번인지 세지도 못할만큼 씻고 헹궈내고 헹궈내고~~~~ &#65279;오래 묵어서 약 될꺼라는 동네 ...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10074_40169258998|img_40169258998|http://blogthumb2.naver.net/20121001_275/prograture_1349017912188HAj5n_JPEG/14.JPG?type=s70|10074|prograture|40169258998|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*1.post','90000003_00000000000000095A463FF6','4',event);" name="todayTopicLink">보이차 긴압하기</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=prograture" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_00000000000000095A463FF6','',event);">
+						이모텝</a></span></p>
+
+						
+						<div id="post_10074_40169258998" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*1.post','90000003_00000000000000095A463FF6','4',event);" class="_todayTopicLog _param(10074|prograture|40169258998|) _returnFalse">보이차 긴압하기</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10074|prograture|40169258998|) _returnFalse" id="img_40169258998" onclick="clickcr(this,'tpc*1.post','90000003_00000000000000095A463FF6','4',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_00000000000000095A463FF6','4',event);" class="_todayTopicLog _param(10074|prograture|40169258998|) _returnFalse">우리가 마시는 보이차의 규격은 크게 산차(散茶)와 긴압차(緊壓茶)의 두 종류로 나뉩니다. 산차는 차의 제조 과정에서 살청-유념-건조의 과정을 마친 상태로 흔히 모차(毛茶)를 일컫습니...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10074_60173398884|img_60173398884|http://blogthumb2.naver.net/20121014_146/rudgmlbb_1350199969084tjSF0_JPEG/2012.10.14_006.jpg?type=s70|10074|rudgmlbb|60173398884|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E029D3364','5',event);" name="todayTopicLink">[굿애프터눈] LUPICIA 'YUZU..</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=rudgmlbb" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_000000000000000E029D3364','',event);">
+						사랑스런 mil..</a></span></p>
+
+						
+						<div id="post_10074_60173398884" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E029D3364','5',event);" class="_todayTopicLog _param(10074|rudgmlbb|60173398884|) _returnFalse">[굿애프터눈] LUPICIA 'YUZU'  향긋한 유자차</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10074|rudgmlbb|60173398884|) _returnFalse" id="img_60173398884" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E029D3364','5',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E029D3364','5',event);" class="_todayTopicLog _param(10074|rudgmlbb|60173398884|) _returnFalse">LUPICIA 'YUZU' 루피시아 유자 어젯밤에도 마셨고 오늘도 한잔 마시려고 꺼내보았어요. 여행길에 사왔는데요.. 제가 이래요 루피사이에서 3종류를 샀는데 다 비슷하네요... 아...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+
+					</ul>
+				</dd>
+				</dl>
+			</div>
+
+	
+
+			<div id="keyword_10075" class="topiclist" style="display:none;" >
+				<dl class="topic">
+
+	
+		
+
+		
+		
+		
+
+				
+				<dt class="photo">
+					<a href="#" onclick="clickcr(this,'tpc*2.thumb','90000003_000000000000000BAD4E48CB','',event);" class="_showPreview _hidePreview _eachClick _todayTopicLog2 _param(post_10075_50152229067|img_50152229067|http://blogthumb2.naver.net/20121012_157/cj710901_1350015882096EQkDm_JPEG/IMG_4495.JPG?type=s70|10075|cj710901|50152229067|) _iPadReturnFalse _returnFalse" name="todayTopicLink" id="keywordThumbnail_10075"></a>
+					<span id="thumbnailUrl_10075" style="display:none">http://blogthumb2.naver.net/20121012_132/cj710901_13500158291785Ghdj_JPEG/IMG_4490.JPG?type=s140</span>
+
+					<span class="author">
+					<a href="http://blog.naver.com/GoBlog.nhn?userId=cj710901" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_000000000000000BAD4E48CB','',event);">
+					캐럿님의 블로그</a></span>
+
+					
+					<div id="post_10075_50152229067" class="_previewArea" style="display:none; left:0; top:143px;">
+						
+						<h4 ><a href="#" onclick="clickcr(this,'tpc*2.thumb','90000003_000000000000000BAD4E48CB','',event);" class="_todayTopicLog _param(10075|cj710901|50152229067|) _returnFalse">쇼파리폼</a></h4>
+
+						<p>
+		
+							<a href="#" onclick="clickcr(this,'tpc*2.thumb','90000003_000000000000000BAD4E48CB','',event);" class="thumb _todayTopicLog _param(10075|cj710901|50152229067|) _returnFalse"" id="img_50152229067"></a>
+		
+							<a href="#" onclick="clickcr(this,'tpc*2.thumb','90000003_000000000000000BAD4E48CB','',event);" class="_todayTopicLog _param(10075|cj710901|50152229067|) _returnFalse">부족한 솜씨지만 쇼파가 쬐끔 예뻐졌다 등받이로 가지고 있던 프렌치린넨을 덧대고 앉음판도 스폰지방석이 별로인것 같아 목화솜요를 사이즈에 맞게 잘라서 올려놓으니 앉을때 감촉도 좋...</a>
+						</p>
+
+		
+					</div>
+
+				</dt>
+				<!-- //토픽 썸네일 (썸네일 없을경우 삭제) -->
+	
+
+				<dt class="tit">
+	
+
+	
+		
+		
+						<span>소파리폼</span><a href="/sub/SearchTopicPost.nhn?option.keywordSeq=10075&directorySeq=10075" class="sp_etcetera" name="morePostListByDirectory"><span class="blind">더보기</span></a>
+		
+	
+				</dt>
+				<dd>
+					<ul class="subtopic">
+
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10075_130148644522|img_130148644522|http://blogthumb2.naver.net/20121005_270/manye30_1349363282256WwJ6S_JPEG/2009.5월_쇼파커버_(3).JPG?type=s70|10075|manye30|130148644522|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D76B6AA','1',event);" name="todayTopicLink">낡은쇼파 버리진말아요~  리..</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=manye30" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_000000000000001E4D76B6AA','',event);">
+						ㅇ ㅏ ㅅㅣ</a></span></p>
+
+						
+						<div id="post_10075_130148644522" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D76B6AA','1',event);" class="_todayTopicLog _param(10075|manye30|130148644522|) _returnFalse">낡은쇼파 버리진말아요~  리폼해볼까요^^</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10075|manye30|130148644522|) _returnFalse" id="img_130148644522" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D76B6AA','1',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D76B6AA','1',event);" class="_todayTopicLog _param(10075|manye30|130148644522|) _returnFalse">제가 이젠 별 솜씨를 다 자랑해 봅니다 ㅋㅋ 그냥 눈 요기로 봐주셔요^^ 간혹 미싱을 만지는데요 요즘은 거의 만질시간이 없어서 아쉬워하고 있답니다. 지난 사진들 보다 눈에 팍 들어와...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10075_130148839771|img_130148839771|http://blogthumb2.naver.net/20121007_275/anthrax74_1349597886434YJui0_JPEG/STP82879.JPG?type=s70|10075|anthrax74|130148839771|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D79B15B','2',event);" name="todayTopicLink">아기쇼파 리폼~~</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=anthrax74" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_000000000000001E4D79B15B','',event);">
+						준서아범</a></span></p>
+
+						
+						<div id="post_10075_130148839771" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D79B15B','2',event);" class="_todayTopicLog _param(10075|anthrax74|130148839771|) _returnFalse">아기쇼파 리폼~~</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10075|anthrax74|130148839771|) _returnFalse" id="img_130148839771" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D79B15B','2',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D79B15B','2',event);" class="_todayTopicLog _param(10075|anthrax74|130148839771|) _returnFalse">오래전 지인에게서 얻은 아기쇼파 2개 쓸만큼 써서인지 지저분해질데로 지저분해져 리폼을 해보기로 맘먹고 원단을 주문했다 쇼파2개 분량의 원단값이 대충 15,000원정도.. 그린계통의 원...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10075_80171026930|img_80171026930|http://blogthumb2.naver.net/20121010_224/zikimi04_13498771820150IE04_JPEG/2012-02-15_00.58.50.jpg?type=s70|10075|zikimi04|80171026930|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000012AA90C9F2','3',event);" name="todayTopicLink">2인용 쇼파리폼 :D 블루미제..</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=zikimi04" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_0000000000000012AA90C9F2','',event);">
+						삼동꼬냥이</a></span></p>
+
+						
+						<div id="post_10075_80171026930" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000012AA90C9F2','3',event);" class="_todayTopicLog _param(10075|zikimi04|80171026930|) _returnFalse">2인용 쇼파리폼 :D 블루미제이의 증정품_˚</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10075|zikimi04|80171026930|) _returnFalse" id="img_80171026930" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000012AA90C9F2','3',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000012AA90C9F2','3',event);" class="_todayTopicLog _param(10075|zikimi04|80171026930|) _returnFalse">울 이웃님들 오늘 하루는 어떻게 지내셨나요? 삼동꼬냥이는 오늘 꼬냥이의 동기이자 이웃인 블루미제이의 집에 다녀왔답니다 얼마전에 출산한 블루미제이와 제이의 아가와 함께 즐거운 시...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10075_90146771309|img_90146771309|http://blogthumb2.naver.net/20120705_214/lynnhun_1341447395698nFxiX_JPEG/IMG_0088.JPG?type=s70|10075|lynnhun|90146771309|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000014FD2A916D','4',event);" name="todayTopicLink">[리폼] 오래된  쇼파 리폼</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=lynnhun" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_0000000000000014FD2A916D','',event);">
+						예쁜린</a></span></p>
+
+						
+						<div id="post_10075_90146771309" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000014FD2A916D','4',event);" class="_todayTopicLog _param(10075|lynnhun|90146771309|) _returnFalse">[리폼] 오래된  쇼파 리폼</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10075|lynnhun|90146771309|) _returnFalse" id="img_90146771309" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000014FD2A916D','4',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000014FD2A916D','4',event);" class="_todayTopicLog _param(10075|lynnhun|90146771309|) _returnFalse">넓은 새 쇼파 장만하면서 오래된 쇼파 버리려니 아들이 자기방에 넣어달라고 해서 버리지 못했습니다. 그냥 사용하게 하자니 신경이 쓰이더군요.. 재봉질하여 쇼파커버만들어 씌우려니 엄...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10075_140160265717|img_140160265717|http://blogthumb2.naver.net/20120529_148/baulla2_1338295178249omyiL_JPEG/20120429_155043.jpg?type=s70|10075|baulla2|140160265717|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A233EDF5','5',event);" name="todayTopicLink">쇼파 리폼</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=baulla2" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_0000000000000020A233EDF5','',event);">
+						사오정</a></span></p>
+
+						
+						<div id="post_10075_140160265717" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A233EDF5','5',event);" class="_todayTopicLog _param(10075|baulla2|140160265717|) _returnFalse">쇼파 리폼</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10075|baulla2|140160265717|) _returnFalse" id="img_140160265717" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A233EDF5','5',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A233EDF5','5',event);" class="_todayTopicLog _param(10075|baulla2|140160265717|) _returnFalse">&#65279;정말 큰맘 먹고 계획해서 해본 소파 리폼! 광목이 주는 독특한 매력! &#65279;이틀을 꼬박 투자해서 드디어 완성이되었다 일단 원단은 20수 무지광목으로 10마 하구, 포인트 쿠션...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+
+					</ul>
+				</dd>
+				</dl>
+			</div>
+
+	
+
+			<div id="keyword_10076" class="topiclist" style="display:none;" >
+				<dl class="topic">
+
+	
+		
+
+		
+		
+		
+
+				
+				<dt class="photo">
+					<a href="#" onclick="clickcr(this,'tpc*3.thumb','90000003_0000000000000020A2C17F2D','',event);" class="_showPreview _hidePreview _eachClick _todayTopicLog2 _param(post_10076_140169543469|img_140169543469|http://blogthumb2.naver.net/20121004_254/wayne4111_1349320775955QWG3m_JPEG/DSC04430.jpg?type=s70|10076|wayne4111|140169543469|) _iPadReturnFalse _returnFalse" name="todayTopicLink" id="keywordThumbnail_10076"></a>
+					<span id="thumbnailUrl_10076" style="display:none">http://blogthumb2.naver.net/20121004_273/wayne4111_1349320752800FwilV_JPEG/DSC04449.jpg?type=s140</span>
+
+					<span class="author">
+					<a href="http://blog.naver.com/GoBlog.nhn?userId=wayne4111" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_0000000000000020A2C17F2D','',event);">
+					임아지뱀님의 블로그</a></span>
+
+					
+					<div id="post_10076_140169543469" class="_previewArea" style="display:none; left:0; top:143px;">
+						
+						<h4 ><a href="#" onclick="clickcr(this,'tpc*3.thumb','90000003_0000000000000020A2C17F2D','',event);" class="_todayTopicLog _param(10076|wayne4111|140169543469|) _returnFalse">[광주맛집] 전대 후문의 일본 카레/라멘 전문점 혼끼 </a></h4>
+
+						<p>
+		
+							<a href="#" onclick="clickcr(this,'tpc*3.thumb','90000003_0000000000000020A2C17F2D','',event);" class="thumb _todayTopicLog _param(10076|wayne4111|140169543469|) _returnFalse"" id="img_140169543469"></a>
+		
+							<a href="#" onclick="clickcr(this,'tpc*3.thumb','90000003_0000000000000020A2C17F2D','',event);" class="_todayTopicLog _param(10076|wayne4111|140169543469|) _returnFalse">여긴 사실 리뷰를 했어도 2년전에 했어야 했던 곳인데.. 전대 후문의 유학원에서 일하던 시절에 매일 저녁마다 혼자 남아야 했던 터라 저녁을 해결하는게 한참 고민이었는데..대놓고 전대...</a>
+						</p>
+
+		
+					</div>
+
+				</dt>
+				<!-- //토픽 썸네일 (썸네일 없을경우 삭제) -->
+	
+
+				<dt class="tit">
+	
+
+	
+		
+		
+						<span>일본 라멘</span><a href="/sub/SearchTopicPost.nhn?option.keywordSeq=10076&directorySeq=10076" class="sp_etcetera" name="morePostListByDirectory"><span class="blind">더보기</span></a>
+		
+	
+				</dt>
+				<dd>
+					<ul class="subtopic">
+
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10076_100165451434|img_100165451434|http://blogthumb2.naver.net/20120823_198/hjs03261220_1345733424081et1Pr_JPEG/P20120823_202122000_8E40EA62-0E68-42EC-8DAE-5FB9A10AF0E3.JPG?type=s70|10076|hjs03261220|100165451434|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*3.post','90000003_000000000000001752537EAA','1',event);" name="todayTopicLink">[일본라멘 전문점] 신논현 맛..</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=hjs03261220" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_000000000000001752537EAA','',event);">
+						열매</a></span></p>
+
+						
+						<div id="post_10076_100165451434" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*3.post','90000003_000000000000001752537EAA','1',event);" class="_todayTopicLog _param(10076|hjs03261220|100165451434|) _returnFalse">[일본라멘 전문점] 신논현 맛집, 울트라멘</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10076|hjs03261220|100165451434|) _returnFalse" id="img_100165451434" onclick="clickcr(this,'tpc*3.post','90000003_000000000000001752537EAA','1',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_000000000000001752537EAA','1',event);" class="_todayTopicLog _param(10076|hjs03261220|100165451434|) _returnFalse">&#65279;일본라멘 전문점, 일본라멘 맛집 신논현 맛집, 울트라멘 &#65279; &#65279;회사 근처에 있는 신논현 맛집, 일본라멘 전문점 울트라멘에 다녀왔어요 :) 회사 점심시간이였는데 사...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10076_167937824|img_167937824|http://blogthumb2.naver.net/20121004_139/xiahstar90_1349316918065YdaKt_JPEG/DSC_0444.JPG?type=s70|10076|xiahstar90|167937824|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*3.post','90000003_00000000000000000A028720','2',event);" name="todayTopicLink">의정부 일본라멘 @ 겐텐</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=xiahstar90" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_00000000000000000A028720','',event);">
+						써니</a></span></p>
+
+						
+						<div id="post_10076_167937824" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*3.post','90000003_00000000000000000A028720','2',event);" class="_todayTopicLog _param(10076|xiahstar90|167937824|) _returnFalse">의정부 일본라멘 @ 겐텐</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10076|xiahstar90|167937824|) _returnFalse" id="img_167937824" onclick="clickcr(this,'tpc*3.post','90000003_00000000000000000A028720','2',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_00000000000000000A028720','2',event);" class="_todayTopicLog _param(10076|xiahstar90|167937824|) _returnFalse">성신여대에서 효니 머리염색하는 거 구경하고의정부로 돌아와서 저녁을 먹었어요. 의정부로 돌아오는 버스에서 계속 의정부맛집 검색을 해봤는데마땅히 갈 데가 없더라구요 ㅋㅋㅋㅋㅋㅋ...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10076_10146825557|img_10146825557|http://blogthumb2.naver.net/20120904_217/oo8015_1346727656679D0DLa_JPEG/IMG_1015.JPG?type=s70|10076|oo8015|10146825557|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*3.post','90000003_00000000000000025CCC4555','3',event);" name="todayTopicLink">[부산맛집/경성대맛집/부경..</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=oo8015" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_00000000000000025CCC4555','',event);">
+						코카</a></span></p>
+
+						
+						<div id="post_10076_10146825557" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*3.post','90000003_00000000000000025CCC4555','3',event);" class="_todayTopicLog _param(10076|oo8015|10146825557|) _returnFalse">[부산맛집/경성대맛집/부경대맛집/라멘 추천] 일본 라멘 맛있는 집! 호메이켄 라멘 - </a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10076|oo8015|10146825557|) _returnFalse" id="img_10146825557" onclick="clickcr(this,'tpc*3.post','90000003_00000000000000025CCC4555','3',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_00000000000000025CCC4555','3',event);" class="_todayTopicLog _param(10076|oo8015|10146825557|) _returnFalse">여기도 친구가 일본 라멘 파는 곳 중에 제일 괜찮은 집이라고 추천해줘서 다녀 왔어요 - ♩ 여행일정이 촉박해서 못 먹을 뻔했는데, 점심과 저녁 사이에 출출해서 먹으러 갔어요 *_* 겉으...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10076_110148640828|img_110148640828|http://blogthumb2.naver.net/20121002_45/imcyl_1349156118081Cllh5_JPEG/IMG_2365.JPG?type=s70|10076|imcyl|110148640828|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000019A55EE03C','4',event);" name="todayTopicLink">[홍대 맛집] 멘야산다이메 -..</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=imcyl" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_0000000000000019A55EE03C','',event);">
+						맛순이</a></span></p>
+
+						
+						<div id="post_10076_110148640828" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000019A55EE03C','4',event);" class="_todayTopicLog _param(10076|imcyl|110148640828|) _returnFalse">[홍대 맛집] 멘야산다이메 - 일본라멘 맛집</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10076|imcyl|110148640828|) _returnFalse" id="img_110148640828" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000019A55EE03C','4',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000019A55EE03C','4',event);" class="_todayTopicLog _param(10076|imcyl|110148640828|) _returnFalse">해장으로 냉면도 좋지만 라멘도 괜츈하다. 9월 어느날 홍대에서 해장꺼리를 찾다가 안가본 일본라멘집을 가보자해서 검색해서 가게된 라멘집 멘야산다이메 되시겠다. 멘야산다이메는 면집...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+		
+		
+
+		
+		
+		
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_10076_30145193816|img_30145193816|http://blogthumb2.naver.net/20120821_278/redbirds7_1345516030294f08bW_JPEG/P120820_144844.jpg?type=s70|10076|redbirds7|30145193816|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*3.post','90000003_000000000000000704CB2758','5',event);" name="todayTopicLink">진주 경대정문 가호동 히노..</a></strong><span>
+
+						<a href="http://blog.naver.com/GoBlog.nhn?userId=redbirds7" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_000000000000000704CB2758','',event);">
+						찌후시후파파</a></span></p>
+
+						
+						<div id="post_10076_30145193816" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*3.post','90000003_000000000000000704CB2758','5',event);" class="_todayTopicLog _param(10076|redbirds7|30145193816|) _returnFalse">진주 경대정문 가호동 히노아지(진주맛집) - 진주 일본라멘 전문점</a></h4>
+							<p>
+		
+								<a href="#" class="thumb _todayTopicLog _param(10076|redbirds7|30145193816|) _returnFalse" id="img_30145193816" onclick="clickcr(this,'tpc*3.post','90000003_000000000000000704CB2758','5',event);" ></a>
+		
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_000000000000000704CB2758','5',event);" class="_todayTopicLog _param(10076|redbirds7|30145193816|) _returnFalse">안녕하세요~ 시후찌후파파입니다^^ 요 며칠동안 외식을 정말 많이 했습니다ㅎㅎ 어제도 한건 했구요~ 어제는 갑자기 면종류가 땡겨서 뭘 먹을까 하다가 일본라멘으로 정했습니다~ 진주에...</a>
+							</p>
+
+		
+						</div>
+						
+
+					</li>
+	
+
+					</ul>
+				</dd>
+				</dl>
+			</div>
+
+
+
+
+	
+
+			<div id="keyword_8" class="topiclist"  style="display:none;"  >
+				<dl class="topic">
+
+	
+		
+
+		
+		
+		
+
+				<!-- 토픽 썸네일 (썸네일 없을경우 삭제) -->
+				<dt class="photo">
+					<a href="#" onclick="clickcr(this,'tpc*1.thumb','90000003_000000000000000E029E504E','',event);" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_8_60173471822|img_60173471822|http://blogthumb2.naver.net/20121015_174/bjsofamily_135028868495460s7g_JPEG/IMG_1076.JPG?type=s70|8|bjsofamily|60173471822|bjsofamily.blog.me) _iPadReturnFalse _returnFalse" name="todayTopicLink" id="keywordThumbnail_8"></a>
+					<span id="thumbnailUrl_8" style="display:none">http://blogthumb2.naver.net/20121015_174/bjsofamily_135028868495460s7g_JPEG/IMG_1076.JPG?type=s140</span>
+					<span class="author">
+					<a href="http://blog.naver.com/GoBlog.nhn?userId=bjsofamily" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_000000000000000E029E504E','',event);">
+					해피돌님의 블로그</a></span>
+
+					
+					<div id="post_8_60173471822" class="_previewArea" style="display:none; left:0; top:143px;">
+						<h4 ><a href="#" onclick="clickcr(this,'tpc*1.thumb','90000003_000000000000000E029E504E','',event);" class="_todayTopicLog _param(8|bjsofamily|60173471822|bjsofamily.blog.me) _returnFalse">펠트로 만든 핸드폰인형 (펠트하우스, 펠트프렌즈 서포터즈, 김희진의 펠트 하우스)</a></h4>
+						<p>
+					
+							<a href="#" onclick="clickcr(this,'tpc*1.thumb','90000003_000000000000000E029E504E','',event);" class="thumb _todayTopicLog _param(8|bjsofamily|60173471822|bjsofamily.blog.me) _returnFalse" id="img_60173471822" ></a>
+					
+							<a href="#" onclick="clickcr(this,'tpc*1.thumb','90000003_000000000000000E029E504E','',event);" class="_todayTopicLog _param(8|bjsofamily|60173471822|bjsofamily.blog.me) _returnFalse">뽀송뽀송 펠트로 만든 핸드폰인형입니다. 토요일 저녁 대왕의 꿈을 보면서 양모인형 작업을 해 봤어요.. 예전에 사둔 양모가 많아서 이번에 &lt;친절한 니들펠트 DIY&gt;책을 보면서 ...</a>
+						</p>
+
+		
+					</div>
+				</dt>
+				<!-- //토픽 썸네일 (썸네일 없을경우 삭제) -->
+	
+
+				<dt class="tit">
+					<span>미술·디자인</span><a href="/sub/PostListByDirectory.nhn?option.directorySeq=8&directorySeq=8" class="sp_etcetera" name="morePostListByDirectory"><span class="blind">더보기</span></a>
+				</dt>
+				<dd>
+					<ul class="subtopic">
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_8_140170406954|img_140170406954|http://blogthumb2.naver.net/20121016_285/hyunso1009_1350315395657gAxs9_JPEG/567.JPG?type=s70|8|hyunso1009|140170406954|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000020A2CEAC2A','1',event);" name="todayTopicLink">2012 남이섬 일러스트 축제..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=hyunso1009" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_0000000000000020A2CEAC2A','',event);">
+						정소현 일러..</a></span></p>
+
+						
+						<div id="post_8_140170406954" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000020A2CEAC2A','1',event);" class="_todayTopicLog _param(8|hyunso1009|140170406954|) _returnFalse">2012 남이섬 일러스트 축제를 준비하러 갔던날.</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000020A2CEAC2A','1',event);" class="thumb _todayTopicLog _param(8|hyunso1009|140170406954|) _returnFalse" id="img_140170406954"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000020A2CEAC2A','1',event);" class="_todayTopicLog _param(8|hyunso1009|140170406954|) _returnFalse">지난 주 수요일 (10.10) 남이섬 오픈스튜디어에 도착해서 큐브모양에 작품을 붙히고 뒷배경을 꾸몄다.사실 너무 바쁘기도 해서 이번에는 참가를 안할 예정이었다.그런데 대표님께서 전화 ...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_8_110149615619|img_110149615619|http://blogthumb2.naver.net/20121015_190/marsem_1350308429388oM3sg_JPEG/블로그셈네일.jpg?type=s70|8|marsem|110149615619|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000019A56DC003','2',event);" name="todayTopicLink">일러스트에서  3D타이포제작..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=marsem" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_0000000000000019A56DC003','',event);">
+						오구당당 고..</a></span></p>
+
+						
+						<div id="post_8_110149615619" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000019A56DC003','2',event);" class="_todayTopicLog _param(8|marsem|110149615619|) _returnFalse">일러스트에서  3D타이포제작 튜토리얼(일러스트강좌 일러스트강의) -오구당당</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000019A56DC003','2',event);" class="thumb _todayTopicLog _param(8|marsem|110149615619|) _returnFalse" id="img_110149615619"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000019A56DC003','2',event);" class="_todayTopicLog _param(8|marsem|110149615619|) _returnFalse">오구당당 고상한 야인이 소개하는 일러스트에서 3D 타이포 아트웍을 제작하는 튜토리얼 입니다.일러스트에서 3D타이포제작 튜토리얼(일러스트강좌 일러스트강의)1 단계별도로 그래서 그...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_8_60173444494|img_60173444494|http://blogthumb2.naver.net/20121015_171/alphacolor_1350264700843WfT7H_JPEG/naver_com_20121015_103107.jpg?type=s70|8|alphacolor|60173444494|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E029DE58E','3',event);" name="todayTopicLink">[미술전시] 2012년 덕수궁 프..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=alphacolor" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_000000000000000E029DE58E','',event);">
+						색으로물들다</a></span></p>
+
+						
+						<div id="post_8_60173444494" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E029DE58E','3',event);" class="_todayTopicLog _param(8|alphacolor|60173444494|) _returnFalse">[미술전시] 2012년 덕수궁 프로젝트 - 2012.09.19 - 2012.12.02</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E029DE58E','3',event);" class="thumb _todayTopicLog _param(8|alphacolor|60173444494|) _returnFalse" id="img_60173444494"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000000E029DE58E','3',event);" class="_todayTopicLog _param(8|alphacolor|60173444494|) _returnFalse">2012년 덕수궁 프로젝트 2012.09.19 - 2012.12.02 - 관람료 : 3000원 (덕수궁 입장료 포함), 초/중/고 무료 - 전 시 소 개- 덕수궁은 1593년 선조가 임진왜란으로 피신을 갔다가 돌아온 ...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_8_90154438363|img_90154438363|http://blogthumb2.naver.net/20121015_124/takeyourbeat_1350276989892WXX8L_JPEG/507379fd28ba0d7b2000010c_house-in-bioclimatic-experimental-urbanization-jos-luis.jpg?type=s70|8|takeyourbeat|90154438363|takeyourbeat.blog.me) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000014FD9F8EDB','4',event);" name="todayTopicLink">[건축디자인] 자연의 힘을 빌..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=takeyourbeat" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_0000000000000014FD9F8EDB','',event);">
+						가치</a></span></p>
+
+						
+						<div id="post_8_90154438363" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000014FD9F8EDB','4',event);" class="_todayTopicLog _param(8|takeyourbeat|90154438363|takeyourbeat.blog.me) _returnFalse">[건축디자인] 자연의 힘을 빌리는 집 House in Bioclimatic Experimental Urbanization</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000014FD9F8EDB','4',event);" class="thumb _todayTopicLog _param(8|takeyourbeat|90154438363|takeyourbeat.blog.me) _returnFalse" id="img_90154438363"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_0000000000000014FD9F8EDB','4',event);" class="_todayTopicLog _param(8|takeyourbeat|90154438363|takeyourbeat.blog.me) _returnFalse">[건축디자인] 자연의 힘을 빌리는 집 House in Bioclimatic Experimental Urbanization Architects : Jos&eacute; Luis Rodr&iacute;guez GilLocation : Granadilla, Canary ...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_8_120171016100|img_120171016100|http://blogthumb2.naver.net/20121015_196/o_o2222222_1350282561813wsmkk_JPEG/16.jpg?type=s70|8|o_o2222222|120171016100|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*1.post','90000003_000000000000001BFAC02FA4','5',event);" name="todayTopicLink">포토샵강좌,포토샵으로 예쁜..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=o_o2222222" target="_blank" onclick="clickcr(this,'tpc*1.blog','90000003_000000000000001BFAC02FA4','',event);">
+						왔숑</a></span></p>
+
+						
+						<div id="post_8_120171016100" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000001BFAC02FA4','5',event);" class="_todayTopicLog _param(8|o_o2222222|120171016100|) _returnFalse">포토샵강좌,포토샵으로 예쁜 액자만들기^^</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000001BFAC02FA4','5',event);" class="thumb _todayTopicLog _param(8|o_o2222222|120171016100|) _returnFalse" id="img_120171016100"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*1.post','90000003_000000000000001BFAC02FA4','5',event);" class="_todayTopicLog _param(8|o_o2222222|120171016100|) _returnFalse">액자 필요하신 분들 댓글이나 쪽지주세요.^^ㅎㅎㅎ 액자틀 무료로 나눠드릴께요. 감사합니다. 안녕하세요.~ 즐거운 주말 보내셨나요?ㅎㅎ^^ 저는, 모처럼 집에내려가서 엄마랑 오붓하게 ...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+
+					</ul>
+				</dd>
+				</dl>
+			</div>
+
+	
+
+			<div id="keyword_9" class="topiclist"  style="display:none;"  >
+				<dl class="topic">
+
+	
+		
+
+		
+		
+		
+
+				<!-- 토픽 썸네일 (썸네일 없을경우 삭제) -->
+				<dt class="photo">
+					<a href="#" onclick="clickcr(this,'tpc*2.thumb','90000003_00000000000000070504B11A','',event);" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_9_30148964634|img_30148964634|http://blogthumb2.naver.net/20121011_273/violette00_13499178022477N4cX_JPEG/new_세상_어디에도_없는_착한남자_E08_121004_HDTV_x264_720p-Ernie.mp4_001554686.jpg?type=s70|9|violette00|30148964634|) _iPadReturnFalse _returnFalse" name="todayTopicLink" id="keywordThumbnail_9"></a>
+					<span id="thumbnailUrl_9" style="display:none">http://blogthumb2.naver.net/20121011_273/violette00_13499178022477N4cX_JPEG/new_세상_어디에도_없는_착한남자_E08_121004_HDTV_x264_720p-Ernie.mp4_001554686.jpg?type=s140</span>
+					<span class="author">
+					<a href="http://blog.naver.com/GoBlog.nhn?userId=violette00" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_00000000000000070504B11A','',event);">
+					까르페디엠님의 블로그</a></span>
+
+					
+					<div id="post_9_30148964634" class="_previewArea" style="display:none; left:0; top:143px;">
+						<h4 ><a href="#" onclick="clickcr(this,'tpc*2.thumb','90000003_00000000000000070504B11A','',event);" class="_todayTopicLog _param(9|violette00|30148964634|) _returnFalse">세상 어디에도 없는 착한 남자 - 한재희, 그녀에게 작은 구원의 파편이라도 있을 것인가?</a></h4>
+						<p>
+					
+							<a href="#" onclick="clickcr(this,'tpc*2.thumb','90000003_00000000000000070504B11A','',event);" class="thumb _todayTopicLog _param(9|violette00|30148964634|) _returnFalse" id="img_30148964634" ></a>
+					
+							<a href="#" onclick="clickcr(this,'tpc*2.thumb','90000003_00000000000000070504B11A','',event);" class="_todayTopicLog _param(9|violette00|30148964634|) _returnFalse">마루의 마음을 잡기위해서였을까? 그녀의 말대로, 목숨보다 더 사랑했던 한 남자, 강마루 라고 한다. 목숨보다 더 사랑하면서 지켜야 할 그 무엇이 그녀에겐 또 화려한 이 세상이였다. 한...</a>
+						</p>
+
+		
+					</div>
+				</dt>
+				<!-- //토픽 썸네일 (썸네일 없을경우 삭제) -->
+	
+
+				<dt class="tit">
+					<span>드라마</span><a href="/sub/PostListByDirectory.nhn?option.directorySeq=9&directorySeq=9" class="sp_etcetera" name="morePostListByDirectory"><span class="blind">더보기</span></a>
+				</dt>
+				<dd>
+					<ul class="subtopic">
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_9_70149175308|img_70149175308|http://blogthumb2.naver.net/20121015_16/phj741218_1350311128275PyFGn_JPEG/6-23.jpg?type=s70|9|phj741218|70149175308|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*2.post','90000003_00000000000000105537780C','1',event);" name="todayTopicLink">울랄라부부 5회 줄거리 - 신..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=phj741218" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_00000000000000105537780C','',event);">
+						우리모두</a></span></p>
+
+						
+						<div id="post_9_70149175308" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*2.post','90000003_00000000000000105537780C','1',event);" class="_todayTopicLog _param(9|phj741218|70149175308|) _returnFalse">울랄라부부 5회 줄거리 - 신현준 ,한채아 불륜 인정 '니들끼리 잘 살아라'</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_00000000000000105537780C','1',event);" class="thumb _todayTopicLog _param(9|phj741218|70149175308|) _returnFalse" id="img_70149175308"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_00000000000000105537780C','1',event);" class="_todayTopicLog _param(9|phj741218|70149175308|) _returnFalse">울랄라부부 5회 줄거리 빅토리아는 수남의 기억을 되살리기 위해 알콩달콩 추억 살리기 노력을 시작하고 이로 인해 여옥은 두 사람의 그간의 행각을 알고 경악하는데...현우의 컴플레인에...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_9_140170376168|img_140170376168|http://blogthumb2.naver.net/20121015_279/chcgvchcgv_1350281216585NsnDA_JPEG/로스트걸2_스페셜_세로.jpg?type=s70|9|chcgvchcgv|140170376168|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A2CE33E8','2',event);" name="todayTopicLink">&lt;로스트걸2&gt;금요일 밤10시 첫..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=chcgvchcgv" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_0000000000000020A2CE33E8','',event);">
+						채널CGV</a></span></p>
+
+						
+						<div id="post_9_140170376168" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A2CE33E8','2',event);" class="_todayTopicLog _param(9|chcgvchcgv|140170376168|) _returnFalse">&lt;로스트걸2&gt;금요일 밤10시 첫방송! 1,2화 미리보기 :)</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A2CE33E8','2',event);" class="thumb _todayTopicLog _param(9|chcgvchcgv|140170376168|) _returnFalse" id="img_140170376168"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A2CE33E8','2',event);" class="_todayTopicLog _param(9|chcgvchcgv|140170376168|) _returnFalse">10/19 (금) 밤10시 시즌2 첫방송! &#65279; &#65279;특별한 존재들의 초자연 사건파일 &lt;로스트걸2&gt; 지난주 &lt;로스트걸 시즌1&gt;드디어 엄마를 만나게 되었지만위험에 처하게 된 ...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_9_130149409305|img_130149409305|http://blogthumb2.naver.net/20121015_99/110426_ral_1350270216257X2zUu_JPEG/4-8.jpg?type=s70|9|110426_ral|130149409305|110426_ral.blog.me) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D826219','3',event);" name="todayTopicLink">골든타임 22~23회 (完) - 그..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=110426_ral" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_000000000000001E4D826219','',event);">
+						랄</a></span></p>
+
+						
+						<div id="post_9_130149409305" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D826219','3',event);" class="_todayTopicLog _param(9|110426_ral|130149409305|110426_ral.blog.me) _returnFalse">골든타임 22~23회 (完) - 그렇게 삶은 계속된다</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D826219','3',event);" class="thumb _todayTopicLog _param(9|110426_ral|130149409305|110426_ral.blog.me) _returnFalse" id="img_130149409305"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_000000000000001E4D826219','3',event);" class="_todayTopicLog _param(9|110426_ral|130149409305|110426_ral.blog.me) _returnFalse">*탁 트인 하늘 위에 떠오른 아주 작은 희망만 있다면 여러 가지 애로사항들을 딛고 소방헬기는 중증외상환자를 이송하기 위해 처음으로 상공에 떠올랐다. 헬기가 처음으로 힘차게 날갯짓...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_9_140170408005|img_140170408005|http://blogthumb2.naver.net/20121016_124/hoja216_1350315170331uV9ju_JPEG/6.jpg?type=s70|9|hoja216|140170408005|panya.pe.kr) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A2CEB045','4',event);" name="todayTopicLink">조선 제 14대 임금 - 선조 이..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=hoja216" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_0000000000000020A2CEB045','',event);">
+						판야</a></span></p>
+
+						
+						<div id="post_9_140170408005" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A2CEB045','4',event);" class="_todayTopicLog _param(9|hoja216|140170408005|panya.pe.kr) _returnFalse">조선 제 14대 임금 - 선조 이연의 아이들 #3. 후궁 슬하의 왕자들</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A2CEB045','4',event);" class="thumb _todayTopicLog _param(9|hoja216|140170408005|panya.pe.kr) _returnFalse" id="img_140170408005"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000020A2CEB045','4',event);" class="_todayTopicLog _param(9|hoja216|140170408005|panya.pe.kr) _returnFalse">선조의 아들내미들 마지막 파트입니다. 이후에는 옹주들 파트가 계속 될 예정이에요. 이쪽 왕자님들도 파란만장한 기록들이 있기 때문에 읽다보면 재미있을 겁니다. 특히 아래의 순화군은...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_9_100169397722|img_100169397722|http://blogthumb2.naver.net/20121015_51/ccy1447_1350290925002OlgyM_JPEG/ㅡ9.jpg?type=s70|9|ccy1447|100169397722|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000017528FB5DA','5',event);" name="todayTopicLink">성민 한지민 윤시윤 서현진..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=ccy1447" target="_blank" onclick="clickcr(this,'tpc*2.blog','90000003_0000000000000017528FB5DA','',event);">
+						비설</a></span></p>
+
+						
+						<div id="post_9_100169397722" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000017528FB5DA','5',event);" class="_todayTopicLog _param(9|ccy1447|100169397722|) _returnFalse">성민 한지민 윤시윤 서현진&lt; 사랑, 그 추억들... &gt;:1부-4</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000017528FB5DA','5',event);" class="thumb _todayTopicLog _param(9|ccy1447|100169397722|) _returnFalse" id="img_100169397722"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*2.post','90000003_0000000000000017528FB5DA','5',event);" class="_todayTopicLog _param(9|ccy1447|100169397722|) _returnFalse">&lt; 아래에 이어서~ &gt; 11년전. 서하 고 2 때. 봄, 어느날. 체육시간. 반학생들은 축구를 하고 있고 서하는 학교 안에 있는 연못 근처 수돗가에서 주전자에 물을 받고 있다 서하는 물...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+
+					</ul>
+				</dd>
+				</dl>
+			</div>
+
+	
+
+			<div id="keyword_16" class="topiclist"  style="display:none;"  >
+				<dl class="topic">
+
+	
+		
+
+		
+		
+		
+
+				<!-- 토픽 썸네일 (썸네일 없을경우 삭제) -->
+				<dt class="photo">
+					<a href="#" onclick="clickcr(this,'tpc*3.thumb','90000003_00000000000000025CF9335C','',event);" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_16_10149770076|img_10149770076|http://blogthumb2.naver.net/20121016_213/inhee201_13503460796102Yucd_JPEG/DSCN2642_(1).JPG?type=s70|16|inhee201|10149770076|) _iPadReturnFalse _returnFalse" name="todayTopicLink" id="keywordThumbnail_16"></a>
+					<span id="thumbnailUrl_16" style="display:none">http://blogthumb2.naver.net/20121016_213/inhee201_13503460796102Yucd_JPEG/DSCN2642_(1).JPG?type=s140</span>
+					<span class="author">
+					<a href="http://blog.naver.com/GoBlog.nhn?userId=inhee201" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_00000000000000025CF9335C','',event);">
+					승현맘님의 블로그</a></span>
+
+					
+					<div id="post_16_10149770076" class="_previewArea" style="display:none; left:0; top:143px;">
+						<h4 ><a href="#" onclick="clickcr(this,'tpc*3.thumb','90000003_00000000000000025CF9335C','',event);" class="_todayTopicLog _param(16|inhee201|10149770076|) _returnFalse">녹차 강아지 &amp; 고양이 천연샴푸와 린스</a></h4>
+						<p>
+					
+							<a href="#" onclick="clickcr(this,'tpc*3.thumb','90000003_00000000000000025CF9335C','',event);" class="thumb _todayTopicLog _param(16|inhee201|10149770076|) _returnFalse" id="img_10149770076" ></a>
+					
+							<a href="#" onclick="clickcr(this,'tpc*3.thumb','90000003_00000000000000025CF9335C','',event);" class="_todayTopicLog _param(16|inhee201|10149770076|) _returnFalse">&lt;&lt; 녹차 강아지 &amp; 고양이 천연샴푸와 린스 &gt;&gt; 정성스럽게 만든 핸드메이드표 녹차샴푸와 린스를 소개합니다. 녹차의 강력한 살균효과와 노폐물제거로 사랑하는 애완동물...</a>
+						</p>
+
+		
+					</div>
+				</dt>
+				<!-- //토픽 썸네일 (썸네일 없을경우 삭제) -->
+	
+
+				<dt class="tit">
+					<span>애완·반려동물</span><a href="/sub/PostListByDirectory.nhn?option.directorySeq=16&directorySeq=16" class="sp_etcetera" name="morePostListByDirectory"><span class="blind">더보기</span></a>
+				</dt>
+				<dd>
+					<ul class="subtopic">
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_16_120171060872|img_120171060872|http://blogthumb2.naver.net/20121015_258/uerjil_13503118114817o9aE_JPEG/20121007_155045.jpg?type=s70|16|uerjil|120171060872|uerjil.blog.me) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*3.post','90000003_000000000000001BFAC0DE88','1',event);" name="todayTopicLink">똘이를 내 호적에!</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=uerjil" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_000000000000001BFAC0DE88','',event);">
+						알랍똘똘</a></span></p>
+
+						
+						<div id="post_16_120171060872" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*3.post','90000003_000000000000001BFAC0DE88','1',event);" class="_todayTopicLog _param(16|uerjil|120171060872|uerjil.blog.me) _returnFalse">똘이를 내 호적에!</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_000000000000001BFAC0DE88','1',event);" class="thumb _todayTopicLog _param(16|uerjil|120171060872|uerjil.blog.me) _returnFalse" id="img_120171060872"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_000000000000001BFAC0DE88','1',event);" class="_todayTopicLog _param(16|uerjil|120171060872|uerjil.blog.me) _returnFalse">저 이거 좋아해요.(어쩌라고) 새마을식당에서 파는 고긴데..이름은 잘 몰겠고..... 근데 이날 내가 직접 제조한 쏘맥이 어찌나 맛나던지.... 이 맛있는고기 먹은게 기억에서 완존 깨끗하...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_16_150149482683|img_150149482683|http://blogthumb2.naver.net/20121015_252/min_buzzlove_1350290977608XfjDF_JPEG/B8D01.JPG?type=s70|16|min_buzzlove|150149482683|min_buzzlove.blog.me) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000022F59B48BB','2',event);" name="todayTopicLink">내츄럴 킴메밀</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=min_buzzlove" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_0000000000000022F59B48BB','',event);">
+						아륜</a></span></p>
+
+						
+						<div id="post_16_150149482683" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000022F59B48BB','2',event);" class="_todayTopicLog _param(16|min_buzzlove|150149482683|min_buzzlove.blog.me) _returnFalse">내츄럴 킴메밀</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000022F59B48BB','2',event);" class="thumb _todayTopicLog _param(16|min_buzzlove|150149482683|min_buzzlove.blog.me) _returnFalse" id="img_150149482683"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000022F59B48BB','2',event);" class="_todayTopicLog _param(16|min_buzzlove|150149482683|min_buzzlove.blog.me) _returnFalse">안녕하세요오~!아맞다.... 저번 포스팅에 답글 안달았다.. 흐급 이거 다쓰고 답글쓰러 갈게요! 그래도 요즘은 포스팅을 나름 잘하는(?)ㅋㅋㅋㅋ 어제말이죠~! 조공받았답니다!!! 짠! 희루...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_16_140170376051|img_140170376051|http://blogthumb2.naver.net/20121015_18/danbi0429_1350300400810bt4HN_JPEG/사진_153.jpg?type=s70|16|danbi0429|140170376051|danbi0429.blog.me) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000020A2CE3373','3',event);" name="todayTopicLink">2012. 10. 15  서울 - 월드..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=danbi0429" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_0000000000000020A2CE3373','',event);">
+						내사랑단비</a></span></p>
+
+						
+						<div id="post_16_140170376051" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000020A2CE3373','3',event);" class="_todayTopicLog _param(16|danbi0429|140170376051|danbi0429.blog.me) _returnFalse">2012. 10. 15  서울 - 월드컵공원[난지천공원 &amp; 하늘공원]</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000020A2CE3373','3',event);" class="thumb _todayTopicLog _param(16|danbi0429|140170376051|danbi0429.blog.me) _returnFalse" id="img_140170376051"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000020A2CE3373','3',event);" class="_todayTopicLog _param(16|danbi0429|140170376051|danbi0429.blog.me) _returnFalse">2012. 10. 15 " 오늘은 날씨가 너무너무 좋은 가을의 따뜻한 날!이예요~""날씨 예보로는 오늘 쌀쌀하고 춥다고 하였는데 외출을 나가니 우리 단비와 산책하기 너무 좋은 날씨여서, 실내에...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_16_50152432662|img_50152432662|http://blogthumb2.naver.net/20121015_68/lambada2000_1350271485072d4rft_JPEG/6.jpg?type=s70|16|lambada2000|50152432662|lambada2000.blog.me) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*3.post','90000003_000000000000000BAD516416','4',event);" name="todayTopicLink">찰드 견생극장 - 식사를 맞..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=lambada2000" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_000000000000000BAD516416','',event);">
+						핑크달</a></span></p>
+
+						
+						<div id="post_16_50152432662" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*3.post','90000003_000000000000000BAD516416','4',event);" class="_todayTopicLog _param(16|lambada2000|50152432662|lambada2000.blog.me) _returnFalse">찰드 견생극장 - 식사를 맞이하는 자세</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_000000000000000BAD516416','4',event);" class="thumb _todayTopicLog _param(16|lambada2000|50152432662|lambada2000.blog.me) _returnFalse" id="img_50152432662"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_000000000000000BAD516416','4',event);" class="_todayTopicLog _param(16|lambada2000|50152432662|lambada2000.blog.me) _returnFalse">특식이라 우겨봅니돠 &#65279;&#65279; &#65279;&#65279; &#65279;&#65279; &#65279;&#65279;&#65279;주말 잘 보내셨는지욤. 저는 주말에도 뻗어서 ....흑흑... 어깨는 약없으면 힘들지경...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_16_150149499155|img_150149499155|http://blogthumb2.naver.net/20121015_168/esterill_1350302262526Ds38N_JPEG/DSC07371.JPG?type=s70|16|esterill|150149499155|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000022F59B8913','5',event);" name="todayTopicLink">내추럴발란스 제1회 가을운..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=esterill" target="_blank" onclick="clickcr(this,'tpc*3.blog','90000003_0000000000000022F59B8913','',event);">
+						애플</a></span></p>
+
+						
+						<div id="post_16_150149499155" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000022F59B8913','5',event);" class="_todayTopicLog _param(16|esterill|150149499155|) _returnFalse">내추럴발란스 제1회 가을운동회 (2012.10.14) </a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000022F59B8913','5',event);" class="thumb _todayTopicLog _param(16|esterill|150149499155|) _returnFalse" id="img_150149499155"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*3.post','90000003_0000000000000022F59B8913','5',event);" class="_todayTopicLog _param(16|esterill|150149499155|) _returnFalse">고급 사료의 대명사 내추럴발란스 에서 자사 고객님들을 대상으로 야심차게 준비한 제1회 가을운동회가 하남의 &lt;동물과 사람&gt; 운동장에서 열렸답니다 내발 측에서 중간중간 문자로 ...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+
+					</ul>
+				</dd>
+				</dl>
+			</div>
+
+	
+
+			<div id="keyword_23" class="topiclist"  style="display:none;"  >
+				<dl class="topic">
+
+	
+		
+
+		
+		
+		
+
+				<!-- 토픽 썸네일 (썸네일 없을경우 삭제) -->
+				<dt class="photo">
+					<a href="#" onclick="clickcr(this,'tpc*4.thumb','90000003_00000000000000095A557FFA','',event);" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_23_40170258426|img_40170258426|http://blogthumb2.naver.net/20121015_290/faas7777_1350284526043Py4op_JPEG/Jonas+Blixt+Frys+com+Open+Final+Round+BxtxwqQMPEWl.jpg?type=s70|23|faas7777|40170258426|faas7777.blog.me) _iPadReturnFalse _returnFalse" name="todayTopicLink" id="keywordThumbnail_23"></a>
+					<span id="thumbnailUrl_23" style="display:none">http://blogthumb2.naver.net/20121015_290/faas7777_1350284526043Py4op_JPEG/Jonas+Blixt+Frys+com+Open+Final+Round+BxtxwqQMPEWl.jpg?type=s140</span>
+					<span class="author">
+					<a href="http://blog.naver.com/GoBlog.nhn?userId=faas7777" target="_blank" onclick="clickcr(this,'tpc*4.blog','90000003_00000000000000095A557FFA','',event);">
+					터푸훈남님의 블로그</a></span>
+
+					
+					<div id="post_23_40170258426" class="_previewArea" style="display:none; left:0; top:143px;">
+						<h4 ><a href="#" onclick="clickcr(this,'tpc*4.thumb','90000003_00000000000000095A557FFA','',event);" class="_todayTopicLog _param(23|faas7777|40170258426|faas7777.blog.me) _returnFalse">[프라이스닷컴 오픈 FR]브릭스트, 생애 첫 PGA 우승..대니 리 공동 16위..리차드 리 공동 43위 </a></h4>
+						<p>
+					
+							<a href="#" onclick="clickcr(this,'tpc*4.thumb','90000003_00000000000000095A557FFA','',event);" class="thumb _todayTopicLog _param(23|faas7777|40170258426|faas7777.blog.me) _returnFalse" id="img_40170258426" ></a>
+					
+							<a href="#" onclick="clickcr(this,'tpc*4.thumb','90000003_00000000000000095A557FFA','',event);" class="_todayTopicLog _param(23|faas7777|40170258426|faas7777.blog.me) _returnFalse">스웨덴의 루키 조나스 브릭스트가 생애 첫 PGA 투어 우승을 차지했다. 브릭스트는 15일(한국시간) 미국 캘리포니아주 샌 마틴의 코드밸리 골프클럽(파71.7368야드)에서 벌어진 프라이...</a>
+						</p>
+
+		
+					</div>
+				</dt>
+				<!-- //토픽 썸네일 (썸네일 없을경우 삭제) -->
+	
+
+				<dt class="tit">
+					<span>스포츠</span><a href="/sub/PostListByDirectory.nhn?option.directorySeq=23&directorySeq=23" class="sp_etcetera" name="morePostListByDirectory"><span class="blind">더보기</span></a>
+				</dt>
+				<dd>
+					<ul class="subtopic">
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_23_30149169549|img_30149169549|http://blogthumb2.naver.net/20121014_283/28ssan_1350165362203VKKNk_JPEG/벽두_19.JPG?type=s70|23|28ssan|30149169549|bandalgom.com) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*4.post','90000003_00000000000000070507D18D','1',event);" name="todayTopicLink">벽두 ... 컬린의 자마로 스..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=28ssan" target="_blank" onclick="clickcr(this,'tpc*4.blog','90000003_00000000000000070507D18D','',event);">
+						반달곰</a></span></p>
+
+						
+						<div id="post_23_30149169549" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*4.post','90000003_00000000000000070507D18D','1',event);" class="_todayTopicLog _param(23|28ssan|30149169549|bandalgom.com) _returnFalse">벽두 ... 컬린의 자마로 스포트라이트를 한몸에 받았지만</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*4.post','90000003_00000000000000070507D18D','1',event);" class="thumb _todayTopicLog _param(23|28ssan|30149169549|bandalgom.com) _returnFalse" id="img_30149169549"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*4.post','90000003_00000000000000070507D18D','1',event);" class="_todayTopicLog _param(23|28ssan|30149169549|bandalgom.com) _returnFalse">벽두는 2007년, 2008년 북미 연도대표말을 했고 최고의 수득상금(1000만달러 이상)을 자랑하는 컬린의 자마(子馬)라 2012년 9월 9일 데뷔전부터 경마팬들의 관심을 한몸에 받은 신마죠 데...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_23_110149520741|img_110149520741|http://blogthumb2.naver.net/20121014_137/nayeon0508_1350210462645om2oJ_JPEG/플레이오프_롯데자이언츠_vs_SK와이번스_BBQ치킨_추천_그리고_잘했어_두산베어스_(오재원,_이종욱,_이원석,_김선우,_김재호,_변진수)_.jpg?type=s70|23|nayeon0508|110149520741|nayeon0508.blog.me) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*4.post','90000003_0000000000000019A56C4D65','2',event);" name="todayTopicLink">[플레이오프] 롯데자이언츠..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=nayeon0508" target="_blank" onclick="clickcr(this,'tpc*4.blog','90000003_0000000000000019A56C4D65','',event);">
+						요니나</a></span></p>
+
+						
+						<div id="post_23_110149520741" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*4.post','90000003_0000000000000019A56C4D65','2',event);" class="_todayTopicLog _param(23|nayeon0508|110149520741|nayeon0508.blog.me) _returnFalse">[플레이오프] 롯데자이언츠 vs SK와이번스 BBQ치킨 추천 그리고 잘했어! 두산베어스 (오재원, 이종욱, 이원석, 김선우, 김재호, 변진수)</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*4.post','90000003_0000000000000019A56C4D65','2',event);" class="thumb _todayTopicLog _param(23|nayeon0508|110149520741|nayeon0508.blog.me) _returnFalse" id="img_110149520741"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*4.post','90000003_0000000000000019A56C4D65','2',event);" class="_todayTopicLog _param(23|nayeon0508|110149520741|nayeon0508.blog.me) _returnFalse">[플레이오프] 롯데자이언츠 vs SK와이번스 BBQ치킨 추천 그리고 잘했어! 두산베어스 (오재원, 이종욱, 이원석, 김선우, 김재호, 변진수) &#65279; 2012 두산베어스의 야구는 끝났습...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_23_60173483519|img_60173483519|http://blogthumb2.naver.net/20121015_242/mogistar_1350297079589z3daN_PNG/IMG_3117.png?type=s70|23|mogistar|60173483519|mogistar.com) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*4.post','90000003_000000000000000E029E7DFF','3',event);" name="todayTopicLink">2012 F1 코리아 그랑프리 직..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=mogistar" target="_blank" onclick="clickcr(this,'tpc*4.blog','90000003_000000000000000E029E7DFF','',event);">
+						모기스타</a></span></p>
+
+						
+						<div id="post_23_60173483519" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*4.post','90000003_000000000000000E029E7DFF','3',event);" class="_todayTopicLog _param(23|mogistar|60173483519|mogistar.com) _returnFalse">2012 F1 코리아 그랑프리 직찍 - 레드불, 맥클라렌, 페라리 등</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*4.post','90000003_000000000000000E029E7DFF','3',event);" class="thumb _todayTopicLog _param(23|mogistar|60173483519|mogistar.com) _returnFalse" id="img_60173483519"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*4.post','90000003_000000000000000E029E7DFF','3',event);" class="_todayTopicLog _param(23|mogistar|60173483519|mogistar.com) _returnFalse">&#65279;2012 F1 코리아 그랑프리가 끝난 지 벌써 이틀이 지났네요... 지난 주말에는 제가 늘상 해왔던 메르세데스와 관련된 내용들을 적었다면 오늘부터 내일까지는 제가 관람하면서 D...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_23_130149416191|img_130149416191|http://blogthumb2.naver.net/20121015_6/noperty_1350276575845I3leF_JPEG/dana_white_alistair_overeem_2.jpg?type=s70|23|noperty|130149416191|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*4.post','90000003_000000000000001E4D827CFF','4',event);" name="todayTopicLink">2012.10.15 오브레임 복귀전..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=noperty" target="_blank" onclick="clickcr(this,'tpc*4.blog','90000003_000000000000001E4D827CFF','',event);">
+						고우키</a></span></p>
+
+						
+						<div id="post_23_130149416191" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*4.post','90000003_000000000000001E4D827CFF','4',event);" class="_todayTopicLog _param(23|noperty|130149416191|) _returnFalse">2012.10.15 오브레임 복귀전이 타이틀전?</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*4.post','90000003_000000000000001E4D827CFF','4',event);" class="thumb _todayTopicLog _param(23|noperty|130149416191|) _returnFalse" id="img_130149416191"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*4.post','90000003_000000000000001E4D827CFF','4',event);" class="_todayTopicLog _param(23|noperty|130149416191|) _returnFalse">-백사장은 알리스타 오브레임이 돌아오면 바로 타이틀샷을 줄 예정인가 봅니다.. 12월말 복귀는 이미 물건너갔고, JDS와의 대립구도도 경기를 못 뛰니 할말없게 되었지만.. 백사장은 ...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_23_10149789882|img_10149789882|http://blogthumb2.naver.net/20121015_256/lesopia_1350272276273yNvkB_JPEG/북한축구_(1)20-47-01.JPG?type=s70|23|lesopia|10149789882|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*4.post','90000003_00000000000000025CF980BA','5',event);" name="todayTopicLink">북한 통한의 우승좌절 [17세..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=lesopia" target="_blank" onclick="clickcr(this,'tpc*4.blog','90000003_00000000000000025CF980BA','',event);">
+						공자민</a></span></p>
+
+						
+						<div id="post_23_10149789882" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*4.post','90000003_00000000000000025CF980BA','5',event);" class="_todayTopicLog _param(23|lesopia|10149789882|) _returnFalse">북한 통한의 우승좌절 [17세 여자월드컵축구 결승]</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*4.post','90000003_00000000000000025CF980BA','5',event);" class="thumb _todayTopicLog _param(23|lesopia|10149789882|) _returnFalse" id="img_10149789882"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*4.post','90000003_00000000000000025CF980BA','5',event);" class="_todayTopicLog _param(23|lesopia|10149789882|) _returnFalse">우승컵을 바로 눈앞에 두고 다 이겼던 경기를 져서 더 아쉬웠다. 만약 규정상 연장전만 있었다면 분명 우승은 북한에 돌아갔을 것이다. 그래서 더 고까운 통한의 준우승이다. 경기전반을 ...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+
+					</ul>
+				</dd>
+				</dl>
+			</div>
+
+	
+
+			<div id="keyword_25" class="topiclist"  style="display:none;"  >
+				<dl class="topic">
+
+	
+		
+
+		
+		
+		
+
+				<!-- 토픽 썸네일 (썸네일 없을경우 삭제) -->
+				<dt class="photo">
+					<a href="#" onclick="clickcr(this,'tpc*5.thumb','90000003_0000000000000014FD9FF8FB','',event);" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_25_90154465531|img_90154465531|http://blogthumb2.naver.net/20121015_281/proboxercham_13502987445788coy5_JPEG/SAM_1229.JPG?type=s70|25|proboxercham|90154465531|) _iPadReturnFalse _returnFalse" name="todayTopicLink" id="keywordThumbnail_25"></a>
+					<span id="thumbnailUrl_25" style="display:none">http://blogthumb2.naver.net/20121015_281/proboxercham_13502987445788coy5_JPEG/SAM_1229.JPG?type=s140</span>
+					<span class="author">
+					<a href="http://blog.naver.com/GoBlog.nhn?userId=proboxercham" target="_blank" onclick="clickcr(this,'tpc*5.blog','90000003_0000000000000014FD9FF8FB','',event);">
+					차유리썬팅달..님의 블로그</a></span>
+
+					
+					<div id="post_25_90154465531" class="_previewArea" style="display:none; left:0; top:143px;">
+						<h4 ><a href="#" onclick="clickcr(this,'tpc*5.thumb','90000003_0000000000000014FD9FF8FB','',event);" class="_todayTopicLog _param(25|proboxercham|90154465531|) _returnFalse">수입자동차유리교환폭스바겐파사트전면유리루마썬팅피너쿨50%시공</a></h4>
+						<p>
+					
+							<a href="#" onclick="clickcr(this,'tpc*5.thumb','90000003_0000000000000014FD9FF8FB','',event);" class="thumb _todayTopicLog _param(25|proboxercham|90154465531|) _returnFalse" id="img_90154465531" ></a>
+					
+							<a href="#" onclick="clickcr(this,'tpc*5.thumb','90000003_0000000000000014FD9FF8FB','',event);" class="_todayTopicLog _param(25|proboxercham|90154465531|) _returnFalse">&#65279;수입자동차유리교환폭스바겐파사트cc입니다순정품시공으로안전과 완성도면을최상에품질로 시공하여드렸습니다 폭스바겐파사트cc보험처리로자동차유리를교환예약하신시간에맞추어...</a>
+						</p>
+
+		
+					</div>
+				</dt>
+				<!-- //토픽 썸네일 (썸네일 없을경우 삭제) -->
+	
+
+				<dt class="tit">
+					<span>자동차</span><a href="/sub/PostListByDirectory.nhn?option.directorySeq=25&directorySeq=25" class="sp_etcetera" name="morePostListByDirectory"><span class="blind">더보기</span></a>
+				</dt>
+				<dd>
+					<ul class="subtopic">
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_25_100169372060|img_100169372060|http://blogthumb2.naver.net/20121015_88/ogn0120_1350229284110gFrNf_JPEG/3A3A9181.jpg?type=s70|25|ogn0120|100169372060|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000017528F519C','1',event);" name="todayTopicLink">초보자를 위한 세차하는법 소..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=ogn0120" target="_blank" onclick="clickcr(this,'tpc*5.blog','90000003_0000000000000017528F519C','',event);">
+						닥터돈까스</a></span></p>
+
+						
+						<div id="post_25_100169372060" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000017528F519C','1',event);" class="_todayTopicLog _param(25|ogn0120|100169372060|) _returnFalse">초보자를 위한 세차하는법 소개! 제 4편! 폼건으로 세차하기! (Foam gun + 슈퍼울트라초특급빅드라잉타올 + 분당맛집 행복치킨)</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000017528F519C','1',event);" class="thumb _todayTopicLog _param(25|ogn0120|100169372060|) _returnFalse" id="img_100169372060"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000017528F519C','1',event);" class="_todayTopicLog _param(25|ogn0120|100169372060|) _returnFalse">안녕하세요 ^ㅡ^ 닥터돈까스 입니다. 오늘은 초보자를 위한 셀프세차 방법 제 4 편 폼건을 이용하여 세차하기 편입니다. 먼저 시작하기에 앞서서 이전에 못보신 분들을 위해서... \\\\\\\...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_25_80171356703|img_80171356703|http://blogthumb2.naver.net/20121015_178/pje3813_1350287374615byGO6_JPEG/4612-1.jpg?type=s70|25|pje3813|80171356703|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000012AA95D21F','2',event);" name="todayTopicLink">수입자동차유리토요타캠리전..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=pje3813" target="_blank" onclick="clickcr(this,'tpc*5.blog','90000003_0000000000000012AA95D21F','',event);">
+						pje3813</a></span></p>
+
+						
+						<div id="post_25_80171356703" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000012AA95D21F','2',event);" class="_todayTopicLog _param(25|pje3813|80171356703|) _returnFalse">수입자동차유리토요타캠리전면유리교환과정</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000012AA95D21F','2',event);" class="thumb _todayTopicLog _param(25|pje3813|80171356703|) _returnFalse" id="img_80171356703"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000012AA95D21F','2',event);" class="_todayTopicLog _param(25|pje3813|80171356703|) _returnFalse">수입자동차유리토요타캠리전면유리교환과정 수입자동차유리교환 잘 하는집입니다. 물론 국내산 자동차유리교환도... 수입자동차유리는 하루전날 차대번호를 알려주시면 다음날 바로 자동...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_25_50152460150|img_50152460150|http://blogthumb2.naver.net/20121015_39/gal509_1350290610938Xrm1U_PNG/1형.png?type=s70|25|gal509|50152460150|howmuchcar.net) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*5.post','90000003_000000000000000BAD51CF76','3',event);" name="todayTopicLink">수원 토스카 중고차 출장매..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=gal509" target="_blank" onclick="clickcr(this,'tpc*5.blog','90000003_000000000000000BAD51CF76','',event);">
+						민서아빠</a></span></p>
+
+						
+						<div id="post_25_50152460150" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*5.post','90000003_000000000000000BAD51CF76','3',event);" class="_todayTopicLog _param(25|gal509|50152460150|howmuchcar.net) _returnFalse">수원 토스카 중고차 출장매입후기 - 김포중고차 고객님께 당일 출장중고차매입, 싼타페 출장견적</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*5.post','90000003_000000000000000BAD51CF76','3',event);" class="thumb _todayTopicLog _param(25|gal509|50152460150|howmuchcar.net) _returnFalse" id="img_50152460150"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*5.post','90000003_000000000000000BAD51CF76','3',event);" class="_todayTopicLog _param(25|gal509|50152460150|howmuchcar.net) _returnFalse">토스카 CDX 고급형 중고차 김포중고차 고객님께 출장매입후기 &#65279; 좋은중고차가 있는 곳이라면 어디든 달려가서 출장매입하는 중고차매입의 달인 하우머치카의 갈현석입니다. 주...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_25_30149302052|img_30149302052|http://blogthumb2.naver.net/20121003_259/ohjunkwon_1349258938253WBWzW_JPEG/P9291596.JPG?type=s70|25|ohjunkwon|30149302052|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*5.post','90000003_00000000000000070509D724','4',event);" name="todayTopicLink">아우디 A7시승기</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=ohjunkwon" target="_blank" onclick="clickcr(this,'tpc*5.blog','90000003_00000000000000070509D724','',event);">
+						주니</a></span></p>
+
+						
+						<div id="post_25_30149302052" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*5.post','90000003_00000000000000070509D724','4',event);" class="_todayTopicLog _param(25|ohjunkwon|30149302052|) _returnFalse">아우디 A7시승기</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*5.post','90000003_00000000000000070509D724','4',event);" class="thumb _todayTopicLog _param(25|ohjunkwon|30149302052|) _returnFalse" id="img_30149302052"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*5.post','90000003_00000000000000070509D724','4',event);" class="_todayTopicLog _param(25|ohjunkwon|30149302052|) _returnFalse">국내 런칭행사부터 왠지 인연이 있었던 아우디 A7을 시승했습니다. 상세스팩은 지난 포스팅 참고해주시기 바라구여,, http://blog.naver.com/ohjunkwon/30139738999 이번엔 필링위주로 ...</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+						
+						
+
+						
+						
+						
+
+					<li>
+						<p><strong><a href="#" class="_showPreview _hidePreview _eachClick  _todayTopicLog2 _param(post_25_90154496776|img_90154496776|http://blogthumb2.naver.net/20121016_267/soya2020_1350343410926MGwCS_JPEG/DSC_0524.jpg?type=s70|25|soya2020|90154496776|) _iPadReturnFalse _returnFalse" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000014FDA07308','5',event);" name="todayTopicLink">구형프라이드 수동 맞춤 판..</a></strong><span>
+
+ 						<a href="http://blog.naver.com/GoBlog.nhn?userId=soya2020" target="_blank" onclick="clickcr(this,'tpc*5.blog','90000003_0000000000000014FDA07308','',event);">
+						용소야</a></span></p>
+
+						
+						<div id="post_25_90154496776" class="_previewArea" style="display:none;">
+							<h4 ><a href="#" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000014FDA07308','5',event);" class="_todayTopicLog _param(25|soya2020|90154496776|) _returnFalse">구형프라이드 수동 맞춤 판매기</a></h4>
+							<p>
+							
+								<a href="#" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000014FDA07308','5',event);" class="thumb _todayTopicLog _param(25|soya2020|90154496776|) _returnFalse" id="img_90154496776"></a>
+							
+								<a href="#" onclick="clickcr(this,'tpc*5.post','90000003_0000000000000014FDA07308','5',event);" class="_todayTopicLog _param(25|soya2020|90154496776|) _returnFalse">달구지와 여행입니다. 기분좋은, 구형 프라이드 맞춤 판매기 입니다. 별건 아니더라도 시간과 정성이 필요한 달구지 판매기라,고객님께 인도하고 만족해 하시면 너무 너무 보람이 있네요....</a>
+							</p>
+
+	
+						</div>
+						
+
+					</li>
+					
+
+					</ul>
+				</dd>
+				</dl>
+			</div>
+
+
+<form id="todayTopicLogForm" method="post" target="_blank" action="/main/TodayTopicLog.nhn">
+	<input type="hidden" name="keywordSeq">
+	<input type="hidden" name="blogId">
+	<input type="hidden" name="logNo">
+	<input type="hidden" name="domainUrl">
+</form>
+			</div>
+
+<script type="text/javascript">
+var oKeywordList = eval("(" + decodeURIComponent("%7B%22Theme%22%3A%5B%7B%22directoryName%22%3A%22%EB%AF%B8%EC%88%A0%C2%B7%EB%94%94%EC%9E%90%EC%9D%B8%22%2C%22directorySeq%22%3A%228%22%7D%2C%7B%22directoryName%22%3A%22%EB%93%9C%EB%9D%BC%EB%A7%88%22%2C%22directorySeq%22%3A%229%22%7D%2C%7B%22directoryName%22%3A%22%EC%95%A0%EC%99%84%C2%B7%EB%B0%98%EB%A0%A4%EB%8F%99%EB%AC%BC%22%2C%22directorySeq%22%3A%2216%22%7D%2C%7B%22directoryName%22%3A%22%EC%8A%A4%ED%8F%AC%EC%B8%A0%22%2C%22directorySeq%22%3A%2223%22%7D%2C%7B%22directoryName%22%3A%22%EC%9E%90%EB%8F%99%EC%B0%A8%22%2C%22directorySeq%22%3A%2225%22%7D%5D%2C%22Topic%22%3A%5B%7B%22keyword%22%3A%22%EC%A0%84%ED%86%B5%EC%B0%A8%22%2C%22keywordSeq%22%3A%2210074%22%7D%2C%7B%22keyword%22%3A%22%EC%86%8C%ED%8C%8C%EB%A6%AC%ED%8F%BC%22%2C%22keywordSeq%22%3A%2210075%22%7D%2C%7B%22keyword%22%3A%22%EC%9D%BC%EB%B3%B8+%EB%9D%BC%EB%A9%98%22%2C%22keywordSeq%22%3A%2210076%22%7D%5D%7D".replace(/\+/gi, "%20"))+")");
+var nSelectedKeywordSeq = "10075";
+// requestFromIPad는 BrowserTypeInjectInterceptor에서 설정.
+var isRequestFromIPad = false;
+</script>
+<script type="text/javascript" src="/nversioning/TodayTopic-480323.js" charset="UTF-8"></script>
+
+		</div>
+
+		
+
+
+
+<div class="today_talk_wrapper" id="mainBannerArea"><!--090915추가-->
+	<div class="today_talk" id="today_talk_layer">
+
+	</div>
+
+	<ul class="tab_spot">
+
+	
+		
+			
+			
+				
+					
+		 			
+		
+		
+		
+		<li>
+		 	<a href="" onmouseover='setMainBanner(0);' onclick='return false;'>
+				<img width="18" height="18" src="http://blogimgs.naver.net/section/blank.gif"  class="b1"  id="today_talk_image_no0" />
+			</a>
+		</li>
+		
+	
+		
+			
+			
+				
+					
+		 			
+		
+		
+		<li>
+			<a href="" onmouseover='setMainBanner(1);' onclick='return false;'>
+				<img width="18" height="18"  src="http://blogimgs.naver.net/section/blank.gif" class="b2on"  id="today_talk_image_no1"/>
+			</a>
+		</li>
+		
+		
+	
+
+	</ul>
+</div>
+		
+<script type="text/javascript">
+	var selectedIndex = 1;
+	var mainBanner = [
+	                  
+						'<p><img src="http://blogfiles9.naver.net/20121015_88/UNKNOWN_1350261045822_Y8B48p_jpg/1013_%BF%C0%B4%C3%C0%C7_%C3%A5.jpg" width="389" height="218" alt="블로거의 오늘의 책 - 착한 에너지 기행" usemap="#bn_tbook" /><map name="bn_tbook">	<area shape="rect" coords="0,169,389,218" href="http://section.blog.naver.com/challengeprogram/TodayBookView.nhn" alt="참여방법 자세히 보기" target="new" />	<area shape="rect" coords="0,0,389,218" href="http://section.blog.naver.com/challengeprogram/TodayBookView.nhn" target="new" onclick="clickcr(this, \'tbn.event3\',\'\', \'\',event);" alt="책 보러가기" /></map></p>',
+					  
+						'<p><img src="http://blogfiles10.naver.net/20121012_233/UNKNOWN_1350005489868_UAPt7n_jpg/%BA%ED%B7%CE%B1%D7%BE%BE%C1%FA%B9%AE_1017_main.jpg" width="389" height="218" usemap="#home_banner2" /><map name="home_banner2">	<area shape="rect" coords="267,169,389,218" href="http://section.blog.naver.com/sub/HotTopicChallenge.nhn" target="_blank" alt="지난 핫토픽 보기" />	<area shape="rect" coords="0,0,389,218" href="http://blog.naver.com/MrBlogQuestionWriteRedirect.nhn?talkCode=120921160051" target="new" onclick="clickcr(this, \'tbn.multimedia\',\'\', \'\',event);" alt="지금 답하기" /></map></p>'
+					  
+					  ];
+	
+	function setMainBanner(seq) {
+		if (mainBanner.length == 0 || mainBanner.length <= seq) {
+			return;
+		}
+
+		// maintalk 영역 체우기
+		$("today_talk_layer").innerHTML = mainBanner[seq];
+		
+		if (mainBanner.length == 1) {
+			return;
+		}
+		
+		// navigation image 변경
+		for(var i=0;i < mainBanner.length;i++) {
+			if ($('today_talk_image_no'+i)){
+				$('today_talk_image_no'+i).className = "b" + (i + 1) + (i==seq ? "on" : "");
+			}
+		}
+	}
+	
+	setMainBanner(selectedIndex);
+</script>
+	</div>
+
+<hr />
+	<div id="container">
+	
+	
+		<div id="mainBlogArea" class='aside'>
+			
+
+
+
+
+
+
+	
+
+
+    
+	<div class="ly_prom" style="position:absolute;top:0px;left:0" id="sectionMainLeftBanner">
+        <img src="http://blogimgs.naver.net/section/event/bner_blog.png" width="135" height="139" alt="모바일에서도 특별하게 내 블로그 대문사진!">
+        <a href="http://blogpeople.blog.me/150143918379" target="_blank" class="b_more">자세히 보기</a>
+        <a href="#" class="b_clse  _closeSectionMainLeftBanner" id="_closeSectionMainLeftBanner">배너닫기</a>
+    </div>
+	
+
+
+
+	
+	
+
+
+
+	
+	
+	
+		
+	
+
+
+
+<div class="int_blog">
+	<div class="int_blog_lst">
+		<h3 class="blind">블로그팀 블로그</h3>
+		<div class="teamblog" id="teamBlog">
+			<a href="http://blogpeople.blog.me" target="_blank"><img src="http://blogimgs.naver.net/section/blogteam.gif" width="100" height="65" alt=""></a>
+			<p class="txt">블로그팀 블로그를<br>이웃 추가하세요</p>
+			<a href="#" class="add _teamBlogAddAsBuddy _returnFalse">이웃추가</a>
+		</div>
+		<h3 class="h_pow">
+
+	
+			<a href="http://section.blog.naver.com/sub/PowerBlogList.nhn" onclick="clickcr(this,'blg*p.title','','',event);" name="moreMainBlog"><span class="sp_content h_powerb"><em class="blind">파워블로그</em></span></a>
+	
+	
+	
+
+		</h3>
+		<ul>
+
+	        <li>
+	
+        
+	        	<a href="javascript:goBlog('thewin11','whityhebi','log','blog','_blank');" onclick="clickcr(this,'blg*p.list','','',event);"><img src="http://blogfiles4.naver.net/20121012_35/UNKNOWN_1350024284682_t57rvO_jpg/powerblog_100x120%28whityhebi%29.jpg" width="100" height="120" alt="웹툰" /></a>
+	        	<h4><a href="javascript:goBlog('thewin11','whityhebi','log','blog','_blank');" onclick="clickcr(this,'blg*p.list','','',event);">【 그림그리는 호랑이 】</a></h4>
+	        	<p>웹툰</p>
+        
+        
+	
+	        </li>
+
+	        <li>
+	
+        
+        
+	        	<a href="http://blog.naver.com/whitepema" target="_blank" onclick="clickcr(this,'blg*p.list','','',event);"><img src="http://blogfiles11.naver.net/20121012_106/UNKNOWN_1350024276532_PnD6d9_jpg/powerblog_100x120%28whitepema%29.jpg" width="100" height="120" alt="차 &#8729; 커피 &#8729; 디저트" /></a>
+	        	<h4><a href="http://blog.naver.com/whitepema" target="_blank" onclick="clickcr(this,'blg*p.list','','',event);">구름의 남쪽</a></h4>
+	        	<p>차 &#8729; 커피 &#8729; 디저트</p>
+        
+	
+	        </li>
+
+       </ul>
+
+	
+		<a href="http://section.blog.naver.com/sub/PowerBlogList.nhn" onclick="clickcr(this,'blg*p.more','','',event);" class="more" name="moreMainBlog">더보기</a>
+	
+	
+	
+
+
+		<div class="popup_login" style="display:none;" id="teamBlogLoginLayer">
+			<h5>로그인 후 사용 가능합니다.</h5>
+			<p><span>우측 로그인 영역</span>에서 로그인 후 사용해 주세요.</p>
+			<a href="#" class="close_layer _closeTeamBlogLoginLayer _returnFalse"><span class="sp_etcetera">닫기</span></a>
+		</div>
+	</div>
+</div>
+
+<div class="etc_blogger">
+<ul>
+	<li>
+	<h3><span class="sp_content h_happy"><em class="blind">해피로그</em></span></h3>
+		<div class="blogger_img">
+			<a target="_blank" href="http://happylog.naver.com/tlssgid67/rdona/H000000067197" onclick="clickcr(this,'blg.happy','','',event);"><img src="http://blogfiles1.naver.net/20121012_80/UNKNOWN_1350024257333_CPoj61_jpg/haapybeen+121015%7E121021.jpg" width="100" height="100" alt="해피로그" /></a>
+		</div>
+	</li>
+</ul>
+</div>
+
+
+		</div>
+
+		<hr />
+		<div id="content" class="parent_iframe">
+			
+
+
+
+
+
+
+
+
+
+<a id="ie_referer_link" href="" style="display:none;" target="_blank"></a>
+<form name="postListForm" id="postListForm" method="post" action="/main/BuddyPostList.nhn" onsubmit="return false;">
+<input type="hidden" name="option.page.currentPage" value="1"/>
+<input type="hidden" name="option.viewType" value="default"/>
+<input type="hidden" name="option.groupId" value="0"/>
+<input type="hidden" name="option.buddyTabTypeInt" value="0"/>
+<input type="hidden" name="directorySeq" value=""/>
+<input type="hidden" name="firstBuddyNo" value=""/>
+
+	<div class="neighbor_wrap_box" id="content_wrap_box">
+	<ul class="tab_postview">
+		 <li><a href="/main/BuddyPostList.nhn" class="sp_content viewpost_onnew" onclick="clickcr(this,'nbn.tab','','',event);" id="viewBuddyPostList"><span class="blind">이웃 소식보기</span></a></li>
+         <li><a href="/main/ThemePostList.nhn" class="sp_content viewpost2_off" onclick="clickcr(this,'thm.tab','','',event);"><span class="blind">주제별 글보기</span></a></li>
+
+		<li class="subm">
+	
+		
+			<a href="" onclick="return false;" class="btn_buddyadd _rosRestrict">열린이웃추가</a>|
+			<a href="http://admin.blog.naver.com/AdminMain.nhn?blogId=thewin11&Redirect=Buddyinfo" class="btn_buddymanage _rosRestrict" target="_blank">이웃관리</a>|
+		
+		
+	
+			<a href="http://blog.naver.com/blogpeople?Redirect=Category&parentCategoryNo=7" target="_blank" class="btn_help2">이용팁</a>
+		</li>
+	</ul>
+	<!-- 090210추가:해피빈콩배너 -->
+	<div id="ad_randicon" style="z-index:100; position:absolute;float:right; top:65px; right:0;height:100px;"></div>
+	<!-- //090210추가:해피빈콩배너 -->
+	
+			
+			<ul class="tab_postalign" id="buddyGroupSelector" style="z-index:5">
+				
+				<li class="postset" id="postset">
+					<span><input type="checkbox" id="buddy_check" checked> <label for="buddy_check">메모글 함께보기</label></span>
+                </li>
+                
+				
+                <li class="other_align">
+                        <div class="select_updatenew">
+                                <div id="selsort_updatenew" class="selectbox-applied selectbox(12880847570320836)" style="display:none;">
+                                        <select onchange="changeGroupId(this.value)" class="selectbox-source" style="position: absolute; visibility: hidden; display: none;">
+	                                        <option value="0">전체 이웃그룹</option>
+	                                        
+											
+											
+											<option value="1">초창기 그룹</option>
+											
+											
+											
+											<option value="2">음악을 사랑하는 분들</option>
+											
+											
+											
+											<option value="3">메크로프로젝트</option>
+											
+                                        </select>
+                                        <div id="selectbox-box-body" class="selectbox-box" style="width:141px">
+                                                <span class="selectbox-label">전체 이웃그룹</span>
+                                        </div>
+                                        <div class="selectbox-layer selectbox(12880847570320836)" style="display:block;width:143px">
+                                                <ul class="selectbox-list" style="height:auto"> <!-- [D] 리스트가 10개 이하일때는 style="height:auto" 추가 -->
+                                                <li class="selectbox-item-selected">선택된 항목</li>
+												<li class="selectbox-item-hovered">마우스 올라간 항목</li>
+												<li>전체 이웃그룹</li>
+												
+												<li style="" class="selectbox-item(javax.servlet.jsp.jstl.core.LoopTagSupport$1Status@bd8764c)">초창기 그룹</li>
+												
+												<li style="" class="selectbox-item(javax.servlet.jsp.jstl.core.LoopTagSupport$1Status@bd8764c)">음악을 사랑하는 분들</li>
+												
+												<li style="" class="selectbox-item(javax.servlet.jsp.jstl.core.LoopTagSupport$1Status@bd8764c)">메크로프로젝트</li>
+												
+                                                </ul>
+                                        </div>
+                                </div>
+                        </div>
+                </li>
+	            
+                </ul>
+                
+	<div class="post_cate" style="border-bottom:0 none">
+		<ul>
+		<li class="on N=a:nns.all"><a href="/main/BuddyPostList.nhn">전체</a></li>
+		<li class=" N=a:nns.post"><a href="/main/BuddyPostList.nhn?option.buddyTabTypeInt=1">이웃새글</a></li>
+		
+		<li class=" N=a:nns.app"><a href="/main/BuddyPostList.nhn?option.buddyTabTypeInt=2">앱활동</a></li>
+		
+		<li class="new N=a:nns.nsn"><a href="/main/BuddyPostList.nhn?option.buddyTabTypeInt=3">이웃의이웃</a></li>
+		</ul>
+	</div>
+
+	
+	
+
+
+
+
+
+	
+	
+	
+	
+	
+	<div class="ngb_layer2 close" id="promotionBox">
+		<div class="ngb_tit">
+			<h3>내 이웃 <a href="http://blog.naver.com/GoBlog.nhn?userId=dexpower" target="_blank" class="name3">아빠랑놀자</a>님의 이웃을 만나보세요.<a href="http://section.blog.naver.com/main/BuddyPostList.nhn?option.buddyTabTypeInt=3&firstBuddyNo=9744110" class="more" onclick="clickcr(this,'nnx.more','','',event);">이웃의 이웃 더보기</a></h3>
+		</div>
+		<div class="layer_lst_box">
+			
+			  	
+			  	
+			  	
+			  		
+			  	
+			  	
+			  		
+			  	
+			  	 
+									
+	
+				<!-- [D] 포스트가 없을경우 dt테그에  class="vertical" 추가 --> 
+				<dl id="buddyPromotion_nf_blog" class="layer_lst">
+				<dt id="buddyPromotionTitle_nf_blog" ><a href="http://blog.naver.com/GoBlog.nhn?userId=nf_blog" target="_blank" onclick="clickcr(this,'nnx.blog','','',event);">NIKE FOO..</a><a id="buddyPromotionNickName_nf_blog" href="http://blog.naver.com/GoBlog.nhn?userId=nf_blog" target="_blank" class="name" onclick="clickcr(this,'nnx.nickname','','',event);">나이키풋볼</a><a id="buddyPromotionAddBtn_nf_blog" href="#" id="buddyBuddyPromotion_nf_blog" class="btn_ngb _buddyAdd _param(nf_blog) _returnFalse" onclick="clickcr(this,'nnx.addneighbor','','',event);"><img class="_buddyAdd _param(nf_blog) _returnFalse" src="http://blogimgs.naver.net/section/buddybuddy/btn_add_ngb2_s.gif" width="41" height="18" alt="이웃추가"/></a></dt>
+				<dd class="profile"><a href="http://blog.naver.com/GoBlog.nhn?userId=nf_blog" target="_blank" onclick="clickcr(this,'nnx.post','','',event);"><img src="http://blogpfthumb.phinf.naver.net/20121010_172/nf_blog_1349844881966_cO212I_png/profile_edit.png?type=s40" width="30" height="30" alt="" onerror="this.onerror=null; this.src='http://blogthumb2.naver.net/20100420_100/iecanfly_1271736907913_5X3N77_gif/login_basic.gif'" title="나이키풋볼"/><span></span></a></dd>
+				
+					<dd id="buddyPromotionContent_nf_blog" class="text1"><img src="http://blogimgs.naver.net/section/buddybuddy/icon_ngb2.gif" width="11" height="12" alt="" /><a href="http://blog.naver.com/GoPost.nhn?blogId=nf_blog&logNo=130149269324" target="_blank" onclick="clickcr(this,'nnx.title','','',event);">HUNGER FOR VICTOR..</a></dd>
+				
+				</dl>
+			  
+			  	
+			  	
+			  	
+			  		
+			  	
+			  	
+			  		
+			  	
+			  	 
+									
+	
+				<!-- [D] 포스트가 없을경우 dt테그에  class="vertical" 추가 --> 
+				<dl id="buddyPromotion_iffu" class="layer_lst">
+				<dt id="buddyPromotionTitle_iffu" ><a href="http://blog.naver.com/GoBlog.nhn?userId=iffu" target="_blank" onclick="clickcr(this,'nnx.blog','','',event);">이퓨의 이츠'아..</a><a id="buddyPromotionNickName_iffu" href="http://blog.naver.com/GoBlog.nhn?userId=iffu" target="_blank" class="name" onclick="clickcr(this,'nnx.nickname','','',event);">이퓨</a><a id="buddyPromotionAddBtn_iffu" href="#" id="buddyBuddyPromotion_iffu" class="btn_ngb _buddyAdd _param(iffu) _returnFalse" onclick="clickcr(this,'nnx.addneighbor','','',event);"><img class="_buddyAdd _param(iffu) _returnFalse" src="http://blogimgs.naver.net/section/buddybuddy/btn_add_ngb2_s.gif" width="41" height="18" alt="이웃추가"/></a></dt>
+				<dd class="profile"><a href="http://blog.naver.com/GoBlog.nhn?userId=iffu" target="_blank" onclick="clickcr(this,'nnx.post','','',event);"><img src="http://blogpfthumb.phinf.naver.net/20120317_246/iffu_1331978413202_066NAI_jpg/IMG_9246.jpg?type=s40" width="30" height="30" alt="" onerror="this.onerror=null; this.src='http://blogthumb2.naver.net/20100420_100/iecanfly_1271736907913_5X3N77_gif/login_basic.gif'" title="이퓨"/><span></span></a></dd>
+				
+					<dd id="buddyPromotionContent_iffu" class="text1"><img src="http://blogimgs.naver.net/section/buddybuddy/icon_ngb2.gif" width="11" height="12" alt="" /><a href="http://blog.naver.com/GoPost.nhn?blogId=iffu&logNo=90154359345" target="_blank" onclick="clickcr(this,'nnx.title','','',event);">새로워진 LG전자 옵티머스뷰2 ..</a></dd>
+				
+				</dl>
+			  
+		  </div>
+		  <a href="#" id="nextStatus" class="btn_control _togglePromotion _returnFalse"><img class="_togglePromotion _returnFalse" src="http://blogimgs.naver.net/section/socialapp/icon_unfd.gif" width="8" height="5" alt="펴기" /></a>				
+	  </div>
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+		
+		
+			
+			
+			<div class="app_layer_box close" id="socialAppActivityLayer">
+				
+		        <h3>내 이웃 <a href="http://blog.naver.com/GoBlog.nhn?userId=o2oo_o" target="_blank" class="name3 N=a:nns_all*x.neighbor">수달피카츄</a>
+				
+				님과 함께 앱을 즐겨보세요.<a href="http://section.blog.naver.com/main/BuddyPostList.nhn?option.buddyTabTypeInt=2" class="more N=a:nns_all*x.more">앱활동 더보기</a></h3>
+
+				
+					
+					
+					
+					
+					
+
+			        <dl class="app_la_lst">
+				        <dt><a href="http://apps.naver.com/app/36727" class="N=a:nns_all*x.app" target="_blank"><img src="http://static1.apps.naver.net/36727/20120928162706831_8665b18d358c03b34f58cfd1fcd84dd0.png" width="19" height="19" alt="" /></a><a href="http://apps.naver.com/app/36727" class="N=a:nns_all*x.app" target="_blank" >와라편의점</a></dt>
+				        <dd>수달피카츄님이 8레벨을 달성하였습니다.</dd>
+				        <dd class="app_more"><a href="#" class="_socialAppPlay _param(1|http://apps.naver.com/appPlayer/36727|36727) _returnFalse" target="_blank"><img src="http://blogimgs.naver.net/section/socialapp/btn_app_go.gif" width="52" height="18" alt="앱실행하기" /></a></dd>
+			        </dl>
+		        
+		        <a href="#" class="btn_opcl _toggleLayer _returnFalse" id="socialAppActivityLayerStatus"><img src="http://blogimgs.naver.net/section/socialapp/icon_unfd.gif" width="8" height="5" alt="펴기" /></a>
+			</div>
+		
+	
+	
+
+
+
+
+
+	
+	
+		
+
+
+
+
+
+<div class="neighborhood_newpost" id="neighborhood_newpost">
+	<h3 class="no_view">이웃 소식보기</h3>
+	
+
+
+
+
+
+
+	<div class="subject_post">
+		<h3 class="no_view">주제별 글보기</h3>
+		<!-- 개인별 주제 -->
+		
+		<div class="layer_popup blog_theme_layer" style="top:-42px;left:0;display:none;" id="layer_popup blog_theme">
+
+		</div>
+	</div> 
+
+	
+
+	
+		
+		
+	
+
+	<ul class="list_type_1">
+		<!-- 이웃 새글 목록 -->
+			
+    	
+    	
+		
+				<li  class="add_img" >
+					
+					
+						
+					
+					<!-- nclick variable -->
+				    
+					<h5><a href="http://deng.kodeng.com/110149634348" target="_blank" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000019A56E092C','1',event);">사골.</a>
+						<span>[<em>13</em>]</span></h5>
+					<div class="list_data">
+						<a href="http://deng.kodeng.com" target="_blank" onclick="clickcr(this,'nns_all*p.blog','cyancode','1',event);">초보주부 밥상정복기</a>
+						<span class="date">2012.10.16 10:00</span>
+						
+							<span class="recommend"><strong class="ico_sympathy"><em class="blind">공감</em></strong> <em>4</em></span>
+						
+					</div>
+
+
+					<div class="template" blogNo="2847853" logNo="110149634348" templateKind="0" ></div>
+					<div class="list_content">
+				
+					
+							<div class="multi_img" onclick="clickcr(this,'nns_all*p.thumbnail','90000003_0000000000000019A56E092C','1',event); goBlankUrl('http://deng.kodeng.com/110149634348')"><img src="http://blogthumb2.naver.net/20121016_274/cyancode_1350341928424yuNAw_JPEG/1011108.JPG?type=s88" width="88" height="88" alt="포스트썸네일" class="thumb"
+								onload="this.onload=null;ThumbnailImage.varify(this, 'false');"
+								onerror="ThumbnailImage.treatInvalid(this, 'false');" />
+							
+							</div>
+						
+					
+					
+				
+						<div>
+							<a href="http://deng.kodeng.com/110149634348" target="_blank"  class="template_briefContents" logNo="110149634348" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000019A56E092C','1',event);">추석선물로 받은것. 한동안 끓일생각없어서 냉동실에 그냥 넣어뒀었는데. 어제 남편이 먼저 얘기하더라.. 저건 언제끓여줘? 맨날 고기국에 잘 먹이고 있는데. 사골국이 또 먹고싶은가보다. 오전내내 핏물이나 빼고. 오후에나 끓여야지. . . . ...</a></div>
+					</div>
+					<dl class="tag">
+						<input type="hidden" name="blogId" value="cyancode" class="vBlogId" />
+						<input type="hidden" name="logNo" value="110149634348" class="vLogNo" />
+						<dt><span class="tag_ico"><em class="blind">태그</em></span></dt>
+						<dd class="userTags" logNo="110149634348" ></dd>
+					</dl>
+				</li>
+		
+				<li  class="add_img" >
+					
+					
+						
+					
+					<!-- nclick variable -->
+				    
+					<h5><a href="http://dexpower.blog.me/130149465722" target="_blank" onclick="clickcr(this,'nns_all*p.post','90000003_000000000000001E4D833E7A','2',event);">아이들 씨름대결 : 남산한옥마을</a>
+						</h5>
+					<div class="list_data">
+						<a href="http://dexpower.blog.me" target="_blank" onclick="clickcr(this,'nns_all*p.blog','dexpower','2',event);">아빠!! 오늘은 뭐하고 놀까?</a>
+						<span class="date">2012.10.16 09:00</span>
+						
+					</div>
+
+
+					<div class="template" blogNo="9744110" logNo="130149465722" templateKind="0" ></div>
+					<div class="list_content">
+				
+					
+							<div class="multi_img" onclick="clickcr(this,'nns_all*p.thumbnail','90000003_000000000000001E4D833E7A','2',event); goBlankUrl('http://dexpower.blog.me/130149465722')"><img src="http://blogthumb2.naver.net/20121015_146/dexpower_1350312799243xfqx4_JPEG/work-20121001-_MG_2582-001.jpg?type=s88" width="88" height="88" alt="포스트썸네일" class="thumb"
+								onload="this.onload=null;ThumbnailImage.varify(this, 'false');"
+								onerror="ThumbnailImage.treatInvalid(this, 'false');" />
+							
+							</div>
+						
+					
+					
+				
+						<div>
+							<a href="http://dexpower.blog.me/130149465722" target="_blank"  class="template_briefContents" logNo="130149465722" onclick="clickcr(this,'nns_all*p.post','90000003_000000000000001E4D833E7A','2',event);">&#65279;추석에 남산한옥마을에서 벌어진 씨름대회에서 아이들이씨름 대결을 펼치고 있는모습입니다한아이는 샅바도 잘잡고 자세도 매우 안정적인것이 매우 인상깊었습니다 ㅎ</a></div>
+					</div>
+					<dl class="tag">
+						<input type="hidden" name="blogId" value="dexpower" class="vBlogId" />
+						<input type="hidden" name="logNo" value="130149465722" class="vLogNo" />
+						<dt><span class="tag_ico"><em class="blind">태그</em></span></dt>
+						<dd class="userTags" logNo="130149465722" ></dd>
+					</dl>
+				</li>
+		
+				<li  class="add_img" >
+					
+					
+						
+					
+					<!-- nclick variable -->
+				    
+					<h5><a href="http://dexpower.blog.me/130149467640" target="_blank" onclick="clickcr(this,'nns_all*p.post','90000003_000000000000001E4D8345F8','3',event);">[돌답례품] 오직 천연재료만 사용한 천연국수 Health..</a>
+						</h5>
+					<div class="list_data">
+						<a href="http://dexpower.blog.me" target="_blank" onclick="clickcr(this,'nns_all*p.blog','dexpower','3',event);">아빠!! 오늘은 뭐하고 놀까?</a>
+						<span class="date">2012.10.16 09:00</span>
+						
+					</div>
+
+
+					<div class="template" blogNo="9744110" logNo="130149467640" templateKind="0" ></div>
+					<div class="list_content">
+				
+					
+							<div class="multi_img" onclick="clickcr(this,'nns_all*p.thumbnail','90000003_000000000000001E4D8345F8','3',event); goBlankUrl('http://dexpower.blog.me/130149467640')"><img src="http://blogthumb2.naver.net/20121016_169/dexpower_1350313452583nXra8_JPEG/work-20121015-_MG_3603-004.jpg?type=s88" width="88" height="88" alt="포스트썸네일" class="thumb"
+								onload="this.onload=null;ThumbnailImage.varify(this, 'true');"
+								onerror="ThumbnailImage.treatInvalid(this, 'true');" />
+							
+								<a href="#button" class="more_img" id="130149467640">
+									<img src="http://blogimgs.naver.net/section/btn_plus.gif" width="17" height="17" alt="" />
+								</a>
+							
+							</div>
+						
+							<div class="add_img_layer" style="display:none">
+								<ul ></ul>
+							</div>
+						
+					
+					
+				
+						<div>
+							<a href="http://dexpower.blog.me/130149467640" target="_blank"  class="template_briefContents" logNo="130149467640" onclick="clickcr(this,'nns_all*p.post','90000003_000000000000001E4D8345F8','3',event);">&#65279;이번에 돌답례품으로 수건을 했었는데요 수량이 부족해서 한정수량으로 특별히천연국수 Healthy Noodles로주문해봤습니다이순간을 빛나게 할 소중한 답례품 (=이순간 답례품)에서 주문한 천연 국수랍니다&#65279;칡국수, 뽕잎국수, ...</a></div>
+					</div>
+					<dl class="tag">
+						<input type="hidden" name="blogId" value="dexpower" class="vBlogId" />
+						<input type="hidden" name="logNo" value="130149467640" class="vLogNo" />
+						<dt><span class="tag_ico"><em class="blind">태그</em></span></dt>
+						<dd class="userTags" logNo="130149467640" ></dd>
+					</dl>
+				</li>
+		
+				<li  class="add_img" >
+					
+					
+						
+					
+					<!-- nclick variable -->
+				    
+					<h5><a href="http://blog.naver.com/juy0726?Redirect=Log&logNo=168766410&from=section" target="_blank" onclick="clickcr(this,'nns_all*p.post','90000003_00000000000000000A0F2BCA','4',event);">에트로 ETRO 2012 FW 신상들 쇼핑하러 가볼까요..</a>
+						<span>[<em>10</em>]</span></h5>
+					<div class="list_data">
+						<a href="http://blog.naver.com/juy0726" target="_blank" onclick="clickcr(this,'nns_all*p.blog','juy0726','4',event);">제이의 꿈꾸는 공간</a>
+						<span class="date">2012.10.16 08:56</span>
+						
+							<span class="recommend"><strong class="ico_sympathy"><em class="blind">공감</em></strong> <em>10</em></span>
+						
+					</div>
+
+
+					<div class="template" blogNo="34363584" logNo="168766410" templateKind="0" ></div>
+					<div class="list_content">
+				
+					
+							<div class="multi_img" onclick="clickcr(this,'nns_all*p.thumbnail','90000003_00000000000000000A0F2BCA','4',event); goBlankUrl('http://blog.naver.com/juy0726/168766410')"><img src="http://blogthumb2.naver.net/20121015_143/juy0726_1350301667571Dl0fb_JPEG/DSC01329.JPG?type=s88" width="88" height="88" alt="포스트썸네일" class="thumb"
+								onload="this.onload=null;ThumbnailImage.varify(this, 'true');"
+								onerror="ThumbnailImage.treatInvalid(this, 'true');" />
+							
+								<a href="#button" class="more_img" id="168766410">
+									<img src="http://blogimgs.naver.net/section/btn_plus.gif" width="17" height="17" alt="" />
+								</a>
+							
+							</div>
+						
+							<div class="add_img_layer" style="display:none">
+								<ul ></ul>
+							</div>
+						
+					
+					
+				
+						<div>
+							<a href="http://blog.naver.com/juy0726?Redirect=Log&logNo=168766410&from=section" target="_blank"  class="template_briefContents" logNo="168766410" onclick="clickcr(this,'nns_all*p.post','90000003_00000000000000000A0F2BCA','4',event);">에트로 ETRO 2012 FW 신상들 쇼핑하러 가볼까요 :) 얼마전에 명동 에비뉴엘에 있는 에트로 ETRO매장에 다녀왔어요. 2012 FW 상품들 좌르륵 입고 되었다는 소식에 구경하러 고고씽- 에트로 매장은 롯데 에비뉴엘 3층에 위치하고 있...</a></div>
+					</div>
+					<dl class="tag">
+						<input type="hidden" name="blogId" value="juy0726" class="vBlogId" />
+						<input type="hidden" name="logNo" value="168766410" class="vLogNo" />
+						<dt><span class="tag_ico"><em class="blind">태그</em></span></dt>
+						<dd class="userTags" logNo="168766410" ></dd>
+					</dl>
+				</li>
+		
+				<li  class="add_img" >
+					
+					
+						
+					
+					<!-- nclick variable -->
+				    
+					<h5><a href="http://deng.kodeng.com/110149634134" target="_blank" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000019A56E0856','5',event);">소고기장터국밥 : 시골 장터에서 팔던 소고기 장터국..</a>
+						<span>[<em>29</em>]</span></h5>
+					<div class="list_data">
+						<a href="http://deng.kodeng.com" target="_blank" onclick="clickcr(this,'nns_all*p.blog','cyancode','5',event);">초보주부 밥상정복기</a>
+						<span class="date">2012.10.16 07:55</span>
+						
+							<span class="recommend"><strong class="ico_sympathy"><em class="blind">공감</em></strong> <em>7</em></span>
+						
+					</div>
+
+
+					<div class="template" blogNo="2847853" logNo="110149634134" templateKind="0" ></div>
+					<div class="list_content">
+				
+					
+							<div class="multi_img" onclick="clickcr(this,'nns_all*p.thumbnail','90000003_0000000000000019A56E0856','5',event); goBlankUrl('http://deng.kodeng.com/110149634134')"><img src="http://blogthumb2.naver.net/20121016_216/cyancode_1350341187493kRcye_JPEG/1011107.JPG?type=s88" width="88" height="88" alt="포스트썸네일" class="thumb"
+								onload="this.onload=null;ThumbnailImage.varify(this, 'true');"
+								onerror="ThumbnailImage.treatInvalid(this, 'true');" />
+							
+								<a href="#button" class="more_img" id="110149634134">
+									<img src="http://blogimgs.naver.net/section/btn_plus.gif" width="17" height="17" alt="" />
+								</a>
+							
+							</div>
+						
+							<div class="add_img_layer" style="display:none">
+								<ul ></ul>
+							</div>
+						
+					
+					
+				
+						<div>
+							<a href="http://deng.kodeng.com/110149634134" target="_blank"  class="template_briefContents" logNo="110149634134" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000019A56E0856','5',event);">좋은아침입니다...^^ 오늘도 아침엔 쌀쌀하네요. 기침은 가라앉았는데. 이놈의 콧물이 사람을 참 찌질하게 만들고 있어요.. 하루종일 코풀다보니. 코하래가 헐어서 아프네요..ㅠㅠ 오늘은 배랑 생강넣고 차를 한번 더 끓여야겠어요... 추석때 ...</a></div>
+					</div>
+					<dl class="tag">
+						<input type="hidden" name="blogId" value="cyancode" class="vBlogId" />
+						<input type="hidden" name="logNo" value="110149634134" class="vLogNo" />
+						<dt><span class="tag_ico"><em class="blind">태그</em></span></dt>
+						<dd class="userTags" logNo="110149634134" ></dd>
+					</dl>
+				</li>
+		
+				<li  class="add_img" >
+					
+					
+						
+					
+					<!-- nclick variable -->
+				    
+					<h5><a href="http://blog.naver.com/slo_olo?Redirect=Log&logNo=90154003048&from=section" target="_blank" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000014FD98EA68','6',event);">시오코나 메론빵의 진수</a>
+						<span>[<em>33</em>]</span></h5>
+					<div class="list_data">
+						<a href="http://blog.naver.com/slo_olo" target="_blank" onclick="clickcr(this,'nns_all*p.blog','slo_olo','6',event);">자이언트베큠</a>
+						<span class="date">2012.10.16 00:10</span>
+						
+							<span class="recommend"><strong class="ico_sympathy"><em class="blind">공감</em></strong> <em>10</em></span>
+						
+					</div>
+
+
+					<div class="template" blogNo="28547932" logNo="90154003048" templateKind="0" ></div>
+					<div class="list_content">
+				
+					
+							<div class="multi_img" onclick="clickcr(this,'nns_all*p.thumbnail','90000003_0000000000000014FD98EA68','6',event); goBlankUrl('http://blog.naver.com/slo_olo/90154003048')"><img src="http://blogthumb2.naver.net/20121009_105/slo_olo_1349740210534Eymik_JPEG/IMG_0361.jpg?type=s88" width="88" height="88" alt="포스트썸네일" class="thumb"
+								onload="this.onload=null;ThumbnailImage.varify(this, 'true');"
+								onerror="ThumbnailImage.treatInvalid(this, 'true');" />
+							
+								<a href="#button" class="more_img" id="90154003048">
+									<img src="http://blogimgs.naver.net/section/btn_plus.gif" width="17" height="17" alt="" />
+								</a>
+							
+							</div>
+						
+							<div class="add_img_layer" style="display:none">
+								<ul ></ul>
+							</div>
+						
+					
+					
+				
+						<div>
+							<a href="http://blog.naver.com/slo_olo?Redirect=Log&logNo=90154003048&from=section" target="_blank"  class="template_briefContents" logNo="90154003048" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000014FD98EA68','6',event);">시오코나 사들고 카페베네.. 괜찮아 커피 사마시니까..라며 온도이를 찰싹붙이는.. 나쁜 나 빵보따리 풀기. 비니루루가 우수수. 녹차메론빵 1500원 호두스콘 1500원*2 콘벨사시옹 2000원 헤즐넛프릿젤 3500원 녹차메론빵 1500원 원래 메론빵 안...</a></div>
+					</div>
+					<dl class="tag">
+						<input type="hidden" name="blogId" value="slo_olo" class="vBlogId" />
+						<input type="hidden" name="logNo" value="90154003048" class="vLogNo" />
+						<dt><span class="tag_ico"><em class="blind">태그</em></span></dt>
+						<dd class="userTags" logNo="90154003048" ></dd>
+					</dl>
+				</li>
+		
+				<li  class="add_img" >
+					
+					
+						
+					
+					<!-- nclick variable -->
+				    
+					<h5><a href="http://blog.naver.com/juy0726?Redirect=Log&logNo=168779119&from=section" target="_blank" onclick="clickcr(this,'nns_all*p.post','90000003_00000000000000000A0F5D6F','7',event);">시바비젼 후레쉬룩 일루미네이트 윤아 광고 영상 &amp; 메..</a>
+						<span>[<em>26</em>]</span></h5>
+					<div class="list_data">
+						<a href="http://blog.naver.com/juy0726" target="_blank" onclick="clickcr(this,'nns_all*p.blog','juy0726','7',event);">제이의 꿈꾸는 공간</a>
+						<span class="date">2012.10.15 23:51</span>
+						
+							<span class="recommend"><strong class="ico_sympathy"><em class="blind">공감</em></strong> <em>12</em></span>
+						
+					</div>
+
+
+					<div class="template" blogNo="34363584" logNo="168779119" templateKind="0" ></div>
+					<div class="list_content">
+				
+					
+							<div class="multi_img" onclick="clickcr(this,'nns_all*p.thumbnail','90000003_00000000000000000A0F5D6F','7',event); goBlankUrl('http://blog.naver.com/juy0726/168779119')"><img src="http://blogthumb2.naver.net/20121015_235/juy0726_1350311660290PYRRa_JPEG/후레쉬룩_일루미네이트_브라운.flv_000009541.jpg?type=s88" width="88" height="88" alt="포스트썸네일" class="thumb"
+								onload="this.onload=null;ThumbnailImage.varify(this, 'true');"
+								onerror="ThumbnailImage.treatInvalid(this, 'true');" />
+							
+								<a href="#button" class="more_img" id="168779119">
+									<img src="http://blogimgs.naver.net/section/btn_plus.gif" width="17" height="17" alt="" />
+								</a>
+							
+							</div>
+						
+							<div class="add_img_layer" style="display:none">
+								<ul ></ul>
+							</div>
+						
+					
+					
+				
+						<div>
+							<a href="http://blog.naver.com/juy0726?Redirect=Log&logNo=168779119&from=section" target="_blank"  class="template_briefContents" logNo="168779119" onclick="clickcr(this,'nns_all*p.post','90000003_00000000000000000A0F5D6F','7',event);">시바비젼 후레쉬룩 일루미네이트 윤아 광고 영상 &amp; 메이킹 필름 * 일명 윤아렌즈로 불리는 시바비젼 후레쉬룩 일루미네이트. 저도 현재 시바비젼 렌즈를 착용 중이고 리치 브라운 런칭 행사에도 다녀와서 그런지 더 애정 돋아요. 남자분들...</a></div>
+					</div>
+					<dl class="tag">
+						<input type="hidden" name="blogId" value="juy0726" class="vBlogId" />
+						<input type="hidden" name="logNo" value="168779119" class="vLogNo" />
+						<dt><span class="tag_ico"><em class="blind">태그</em></span></dt>
+						<dd class="userTags" logNo="168779119" ></dd>
+					</dl>
+				</li>
+		
+				<li  class="add_img" >
+					
+					
+						
+					
+					<!-- nclick variable -->
+				    
+					<h5><a href="http://blog.naver.com/js06029?Redirect=Log&logNo=20168974858&from=section" target="_blank" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000004B22A220A','8',event);">비스트삼주년플필사진 이거맞슴까?</a>
+						</h5>
+					<div class="list_data">
+						<a href="http://blog.naver.com/js06029" target="_blank" onclick="clickcr(this,'nns_all*p.blog','js06029','8',event);">무한이밥엑소짐승</a>
+						<span class="date">2012.10.15 22:47</span>
+						
+					</div>
+
+
+					<div class="template" blogNo="44780017" logNo="20168974858" templateKind="0" ></div>
+					<div class="list_content">
+				
+					
+							<div class="multi_img" onclick="clickcr(this,'nns_all*p.thumbnail','90000003_0000000000000004B22A220A','8',event); goBlankUrl('http://blog.naver.com/js06029/20168974858')"><img src="http://blogthumb2.naver.net/20121015_268/js06029_1350308839726crWBP_JPEG/1350140422820.jpeg?type=s88" width="88" height="88" alt="포스트썸네일" class="thumb"
+								onload="this.onload=null;ThumbnailImage.varify(this, 'true');"
+								onerror="ThumbnailImage.treatInvalid(this, 'true');" />
+							
+								<a href="#button" class="more_img" id="20168974858">
+									<img src="http://blogimgs.naver.net/section/btn_plus.gif" width="17" height="17" alt="" />
+								</a>
+							
+							</div>
+						
+							<div class="add_img_layer" style="display:none">
+								<ul ></ul>
+							</div>
+						
+					
+					
+				
+						<div>
+							<a href="http://blog.naver.com/js06029?Redirect=Log&logNo=20168974858&from=section" target="_blank"  class="template_briefContents" logNo="20168974858" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000004B22A220A','8',event);">내실친도플필함용ㅇㅇ중간에 징현승사진 내카똑 ㅇㅇ내까똑 두개 멀티톡이랑 진짜 톡어째뜬 3준ㄴ 축하하긔내일 되서 글올려야지</a></div>
+					</div>
+					<dl class="tag">
+						<input type="hidden" name="blogId" value="js06029" class="vBlogId" />
+						<input type="hidden" name="logNo" value="20168974858" class="vLogNo" />
+						<dt><span class="tag_ico"><em class="blind">태그</em></span></dt>
+						<dd class="userTags" logNo="20168974858" ></dd>
+					</dl>
+				</li>
+		
+				<li >
+					
+					
+					<!-- nclick variable -->
+				    
+					<h5><a href="http://blog.naver.com/js06029?Redirect=Log&logNo=20168974282&from=section" target="_blank" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000004B22A1FCA','9',event);">우리학교에</a>
+						</h5>
+					<div class="list_data">
+						<a href="http://blog.naver.com/js06029" target="_blank" onclick="clickcr(this,'nns_all*p.blog','js06029','9',event);">무한이밥엑소짐승</a>
+						<span class="date">2012.10.15 22:40</span>
+						
+					</div>
+
+
+					<div class="template" blogNo="44780017" logNo="20168974282" templateKind="0" ></div>
+					<div class="list_content">
+				
+						<div>
+							<a href="http://blog.naver.com/js06029?Redirect=Log&logNo=20168974282&from=section" target="_blank"  class="template_briefContents" logNo="20168974282" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000004B22A1FCA','9',event);">이시영한순철신종훈왓뜸 ㅇㅇ내일하고모레에 시합있는데이시영얼굴 밧는데 얼굴 개작고개여신냄새;;나왜살지?ㅋ;;한순철선수는ㄴ 개착캐용b신종훈 완젼 가까이서봣는데 얼귤 찍 작고완전 뼈다귀고목소리기여븜 ㅇㅇ그냥좋타쿠요</a></div>
+					</div>
+					<dl class="tag">
+						<input type="hidden" name="blogId" value="js06029" class="vBlogId" />
+						<input type="hidden" name="logNo" value="20168974282" class="vLogNo" />
+						<dt><span class="tag_ico"><em class="blind">태그</em></span></dt>
+						<dd class="userTags" logNo="20168974282" ></dd>
+					</dl>
+				</li>
+		
+				<li  class="add_img" >
+					
+					
+						
+					
+					<!-- nclick variable -->
+				    
+					<h5><a href="http://blog.naver.com/js06029?Redirect=Log&logNo=20168974018&from=section" target="_blank" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000004B22A1EC2','10',event);">현승장</a>
+						</h5>
+					<div class="list_data">
+						<a href="http://blog.naver.com/js06029" target="_blank" onclick="clickcr(this,'nns_all*p.blog','js06029','10',event);">무한이밥엑소짐승</a>
+						<span class="date">2012.10.15 22:36</span>
+						
+					</div>
+
+
+					<div class="template" blogNo="44780017" logNo="20168974018" templateKind="0" ></div>
+					<div class="list_content">
+				
+					
+							<div class="multi_img" onclick="clickcr(this,'nns_all*p.thumbnail','90000003_0000000000000004B22A1EC2','10',event); goBlankUrl('http://blog.naver.com/js06029/20168974018')"><img src="http://blogthumb2.naver.net/20121015_132/js06029_1350308204243cFN3H_JPEG/39.jpeg?type=s88" width="88" height="88" alt="포스트썸네일" class="thumb"
+								onload="this.onload=null;ThumbnailImage.varify(this, 'true');"
+								onerror="ThumbnailImage.treatInvalid(this, 'true');" />
+							
+								<a href="#button" class="more_img" id="20168974018">
+									<img src="http://blogimgs.naver.net/section/btn_plus.gif" width="17" height="17" alt="" />
+								</a>
+							
+							</div>
+						
+							<div class="add_img_layer" style="display:none">
+								<ul ></ul>
+							</div>
+						
+					
+					
+				
+						<div>
+							<a href="http://blog.naver.com/js06029?Redirect=Log&logNo=20168974018&from=section" target="_blank"  class="template_briefContents" logNo="20168974018" onclick="clickcr(this,'nns_all*p.post','90000003_0000000000000004B22A1EC2','10',event);">ㅇㅇ내남쟈라규요</a></div>
+					</div>
+					<dl class="tag">
+						<input type="hidden" name="blogId" value="js06029" class="vBlogId" />
+						<input type="hidden" name="logNo" value="20168974018" class="vLogNo" />
+						<dt><span class="tag_ico"><em class="blind">태그</em></span></dt>
+						<dd class="userTags" logNo="20168974018" ></dd>
+					</dl>
+				</li>
+		
+	</ul>
+
+	
+		<div class="paginate">
+		<strong>1</strong> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('2'); return false;" >2</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('3'); return false;" >3</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('4'); return false;" >4</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('5'); return false;" >5</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('6'); return false;" >6</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('7'); return false;" >7</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('8'); return false;" >8</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('9'); return false;" >9</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('10'); return false;" >10</a> 
+<a href="#" class="next" style="cursor:pointer" onclick="javascript:goPage('11');  return false;" >다음</a> 
+
+
+		</div>
+	
+</div>
+	
+
+
+	
+	
+	
+</div>
+</form>
+
+<div id="tpl_layer" class="layer_popup tpl" style="width:382px;top:27px;left:120px;">
+	<div class="layer_content">
+		<!-- Layer Content -->
+			<h4 class="layer_header"></h4>
+			<div class="tpl_content"></div>
+    </div>
+	<span class="shadow shadow1"></span><span class="shadow shadow2"></span><span class="shadow shadow3"></span>
+</div>
+
+<div id="tpl_opml" class="tpl">
+	<input class="file" type="file" name="buddyOPMLFile" />
+</div>
+
+<div id="tpl_addneighbor_title" class="layer_content_innerhtml tpl">열린이웃 추가</div>
+<div id="tpl_addneighbor_content" class="layer_content_innerhtml layer_popup tpl">
+<form method="post" name="add_neighbor" id="frmAddBuddy" target="addBuddy">
+<input type="hidden" name="blogId" value="thewin11" />
+<input type="hidden" name="groupId" id="frmGroupId" value="" />
+<input type="hidden" name="groupName" id="frmGroupName" value="" />
+<input type="hidden" name="groupOpen" id="frmGroupOpen" value="" />
+<fieldset>
+	<legend>열린이웃 추가</legend>
+    <p class="pr_4">다음, 티스토리, 이글루스등 다양한 블로그를 추가해보세요.</p>
+    <table cellspacing="0" class="opt2">
+    <tr>
+        <th>
+			<select name="option" style="width:110px;" onchange="oEventForm.setInputAddress(this.value)" id="frmOption">
+				<option value="direct">주소 직접입력</option>
+				<option value="naver">네이버 블로그</option>
+				<option value="daum">다음 블로그</option>
+				<option value="tistory">티스토리</option>
+				<option value="egloos">이글루스</option>
+				<option value="paran">파란 블로그</option>
+				<option value="cyworld">싸이월드 블로그</option>
+				<option value="opml">OPML 파일등록</option>
+			</select>
+		</th>
+        <td class="input_address"><input name="url" value="원하시는 블로그, RSS 주소를 입력해 주세요" class="txt_2" type="text" onfocus="this.value=this.onfocus='';"></td>
+    </tr>
+    </table>
+   <div id="add_neighbor_group">
+	    <p class="pr_5">추가한 이웃을 위치시킬 그룹을 선택해주세요.</p>
+	    <table cellspacing="0" class="opt2">
+	    <tr>
+	        <th>
+				<select name="groupId_select" style="width:110px;" class="group_selectbox_add_neighbor"></select>
+			</th>
+	        <td class="group_inputbox_add_neighbor" style="display:none;">
+				<input id="addBuddy_groupName" value="" class="txt_3" type="text">&nbsp;
+				<input id="addBuddy_isOpen" name="addBuddy_open" id="p_16_1_1" class="input_radio addBuddy_open" value="true" type="radio" checked="checked">
+				<label for="p_16_1_1">공개</label>
+				<input name="addBuddy_open" id="p_16_1_2" class="input_radio addBuddy_open" value="false" type="radio">
+				<label for="p_16_1_2">비공개</label>
+	        </td>
+	    </tr>
+	    </table>
+   </div>
+	<div class="btn_2" style="margin-top:4px;">
+		<a href="" id="submit_addBuddy" onclick="return false;"><img src="http://blogimgs.naver.net/static/common/btn/btn_add.gif" alt="추가" width="38" height="21"></a>
+		<a href="" onclick="$Element('tpl_layer').hide();return false;"><img src="http://blogimgs.naver.net/static/common/btn/btn_cancel2.gif" alt="취소" width="38" height="21"></a>
+	</div>
+	<div id="layerPop" class="layer_pop" style="display:none">
+		<strong>더 이상 이웃을 추가할 수 없습니다.</strong>
+		<p>
+		이웃추가 기능을 이용한 스팸 피해를 방지하기 위해<br>
+		1일 동안 추가할 수 있는 이웃 수를 제한하고 있습니다.
+		</p>
+		<a href="http://help.naver.com/ops/step2/faq.nhn?faqId=16095&preview=true" target="_blank" class="arrow">이웃추가 수 제한 자세히 보기</a>
+		<a href="#" class="close"><img src="http://blogimgs.naver.net/nblog/mylog/buddy_guide/btn_close.gif" width="19" height="19" border="0" alt="닫기" onclick="closeLayer();"></a>
+	</div>
+</fieldset>
+</form>
+</div>
+
+<a id="ie_referer_link" href="" style="display:none;" target="_blank"></a>
+<script type="text/javascript">
+	
+	var isReadOnly = 'false';
+	var isAllTab = 'true';
+	var mylogDomain = "http://blog.naver.com";
+	
+	var gsAdminDomain = "http://admin.blog.naver.com";
+	var gsBlogId = "thewin11";
+	var socialAppOpen = true && true;
+	var lastAdddateForNextPaging = "";
+	var isShowMemoBuddyPost = '';
+	
+	var isShowBuddyBuddyPromotion = true;
+	
+	var gsAppStoreDomain = "http://apps.naver.com";
+	
+	var isToggleSocialAppActivityLayer = true;
+	
+	var isRequestFromIPad = false;
+</script>
+
+<script type="text/javascript" src="/nversioning/BuddyPostList-3626661.js" charset="UTF-8"></script>
+
+<script type="text/javascript">
+	
+		Slide.apply.setSlideInit('[{"logNo":130149467640,"urls":["http://blogthumb2.naver.net/20121016_218/dexpower_1350313450864qePe3_JPEG/work-20121015-_MG_3596-001.jpg?type=s88","http://blogthumb2.naver.net/20121016_222/dexpower_1350313452035LJqNE_JPEG/work-20121015-_MG_3598-002.jpg?type=s88","http://blogthumb2.naver.net/20121016_32/dexpower_1350313452351q6A2O_JPEG/work-20121015-_MG_3599-003.jpg?type=s88","http://blogthumb2.naver.net/20121016_28/dexpower_1350313452981EmX9Y_JPEG/work-20121015-_MG_3607-005.jpg?type=s88","http://blogthumb2.naver.net/20121016_217/dexpower_1350313453335zCFXg_JPEG/work-20121015-_MG_3608-006.jpg?type=s88"],"blogId":"dexpower"},{"logNo":168766410,"urls":["http://blogthumb2.naver.net/20121015_204/juy0726_1350301668220JhpMD_JPEG/DSC01335.JPG?type=s88","http://blogthumb2.naver.net/20121015_161/juy0726_1350301669532jEYqJ_JPEG/DSC01333.JPG?type=s88","http://blogthumb2.naver.net/20121015_59/juy0726_1350301670092w076C_JPEG/DSC01334.JPG?type=s88","http://blogthumb2.naver.net/20121015_162/juy0726_1350301670638Ke3B7_JPEG/DSC01344.JPG?type=s88","http://blogthumb2.naver.net/20121015_185/juy0726_1350301672249BakA8_JPEG/DSC01340.JPG?type=s88"],"blogId":"juy0726"},{"logNo":110149634134,"urls":["http://blogthumb2.naver.net/20121016_27/cyancode_1350341259059x4dgy_JPEG/1011091.JPG?type=s88","http://blogthumb2.naver.net/20121016_270/cyancode_13503412599787IJqP_JPEG/1011092.JPG?type=s88","http://blogthumb2.naver.net/20121016_207/cyancode_1350341260280Wj8Ls_JPEG/1011093.JPG?type=s88","http://blogthumb2.naver.net/20121016_152/cyancode_13503412607136mU06_JPEG/1011094.JPG?type=s88","http://blogthumb2.naver.net/20121016_132/cyancode_13503412609613VOGx_JPEG/1011095.JPG?type=s88"],"blogId":"cyancode"},{"logNo":90154003048,"urls":["http://blogthumb2.naver.net/20121009_295/slo_olo_13497402085360AuQY_JPEG/IMG_0353.jpg?type=s88","http://blogthumb2.naver.net/20121009_178/slo_olo_1349740208244FhV0u_JPEG/IMG_0351.jpg?type=s88","http://blogthumb2.naver.net/20121009_7/slo_olo_1349740209035rhP1j_JPEG/IMG_0357.jpg?type=s88","http://blogthumb2.naver.net/20121009_149/slo_olo_13497402095353mERi_JPEG/IMG_0360.jpg?type=s88","http://blogthumb2.naver.net/20121009_38/slo_olo_1349740210034NJhYc_JPEG/IMG_0371.jpg?type=s88"],"blogId":"slo_olo"},{"logNo":168779119,"urls":["http://blogthumb2.naver.net/20121015_138/juy0726_1350311659286mvskl_JPEG/%ED%9B%84%EB%A0%88%EC%89%AC%EB%A3%A9_%EC%9D%BC%EB%A3%A8%EB%AF%B8%EB%84%A4%EC%9D%B4%ED%8A%B8_%EB%B8%8C%EB%9D%BC%EC%9A%B4.flv_000002875.jpg?type=s88","http://blogthumb2.naver.net/20121015_194/juy0726_1350311659780hCUJq_JPEG/%ED%9B%84%EB%A0%88%EC%89%AC%EB%A3%A9_%EC%9D%BC%EB%A3%A8%EB%AF%B8%EB%84%A4%EC%9D%B4%ED%8A%B8_%EB%B8%8C%EB%9D%BC%EC%9A%B4.flv_000003958.jpg?type=s88","http://image.nmv.naver.net/blogucc28/2012/10/15/77/03100323A136534E4DC3A91E730935F3C40_juy0726_480P_01_16x9_logo.jpg?type=s88","http://blogthumb2.naver.net/20121015_12/juy0726_1350311661207opcM6_JPEG/%ED%9B%84%EB%A0%88%EC%89%AC%EB%A3%A9_%EC%9D%BC%EB%A3%A8%EB%AF%B8%EB%84%A4%EC%9D%B4%ED%8A%B8_%EB%B8%94%EB%9E%99.flv_000013916.jpg?type=s88","http://blogthumb2.naver.net/20121015_151/juy0726_1350311661581sBmH6_JPEG/%ED%9B%84%EB%A0%88%EC%89%AC%EB%A3%A9_%EC%9D%BC%EB%A3%A8%EB%AF%B8%EB%84%A4%EC%9D%B4%ED%8A%B8_%EB%B8%94%EB%9E%99.flv_000015541.jpg?type=s88"],"blogId":"juy0726"},{"logNo":20168974858,"urls":["http://blogthumb2.naver.net/20121015_260/js06029_13503088401574xY06_JPEG/SC20121015-224151_edit2.jpeg?type=s88"],"blogId":"js06029"},{"logNo":20168974018,"urls":["http://blogthumb2.naver.net/20121015_251/js06029_1350308204399KM8Ki_JPEG/29-3.jpeg?type=s88"],"blogId":"js06029"}]', 'neighborhood_newpost');
+	
+	
+	
+	//SectionArticleTemplate.getInfos('main');
+	SectionArticle.getTags('nns_nps.tag');
+
+	var elBuddyGroupSelectBox = $('selsort_updatenew');
+
+	if ( elBuddyGroupSelectBox != null ) {
+		new Selectbox(elBuddyGroupSelectBox, {
+			height : 230,
+			isIPad : userAgentUtil.isIPadRequest() });
+
+		$Element(elBuddyGroupSelectBox).show();
+	}
+
+	
+		SectionArticle.getTags('nns_all*p.tag');
+	
+
+	
+	var readOnlyStatus = false;
+	var readOnlyLinkErrorMsg = '죄송합니다. 블로그 서비스 점검 중입니다. \n점검 시간 동안은 기능 이용이 제한됩니다. \n자세한 내용은 블로그 홈 공지사항을 참고해주세요.';
+
+	
+	var oPrevTitle = document.getElementsByTagName('title')[0];
+	var title = oPrevTitle.text.replace(/#list_top/g, '');
+
+    function changeTitle() {
+    	if(oPrevTitle.text.indexOf('#list_top') > -1) {
+            oPrevTitle.text = title;
+        }
+    }
+
+    changeTitle();
+	document.onpropertychange = changeTitle;
+	utility.writeNewLcsNonGdid();
+</script>
+<script type="text/javascript">
+	document.domain = "naver.com";
+	var nsc = "blog.main";
+	var ccsrv="cc.naver.com";
+	var nclk_evt = 3;
+	nclk_do();
+</script>
+
+
+
+
+		</div>
+
+		<hr />
+		<div class="template_aside">
+			
+
+
+
+<script type="text/javascript" src="/nversioning/MyBlogNews-433095.js" charset="UTF-8"></script>
+
+<script type="text/javascript">
+	var readOnlyStatusAll = false;
+	function checkReadOnly(el) {
+		var wel = $Element(el);
+
+		if(wel.hasClass("_rosRestrictAll")) {
+			if(readOnlyStatusAll) {
+				alert(readOnlyLinkErrorMsg);
+			}else {
+				location.href = "http://blog.naver.com/GoBlogWrite.nhn";
+			}
+		}
+	}
+ 	//section.myBlogNews.js : _updating에서 호출
+	//현재 : 선물이 있을 경우 , 선물 받고,거절에 대한 메세지  popup
+	//쪽지 클릭 할경우, reload를 한다. 이때 선물팝업도 뜨기때문에, reload대신, location.href로 변경하고 파라미터로 linkType을 보낸다.
+	//linkType이 onlyPaper일 경우에는 쪽지를 클릭한 경우 이므로 상품 도착 팝업창을 띄우지 않는다.
+	function popupForBlogNew(el){
+
+		var linkType = "all";
+		if(el == "userdataGift" && linkType !="onlyPaper"){
+			giftReceivePop(el);
+		}else if(el =="receiveMsg" && linkType !="onlyPaper"){
+			MessageReceivePop();
+		}
+	}
+
+	// 선물 도착 popup
+	function giftReceivePop(el) {
+		var element = $(el);
+
+		if (!element) {
+			return;
+		}
+
+		var elZero = cssquery(" ~ .zero", element)[0];
+		var elInspect = cssquery(" ~ .inspect", element)[0];
+
+		if (elZero.style.display == "block") {
+			var count = Number(elZero.innerHTML) || 0;
+
+			if (count < 0) {
+				return;
+			} else if (count == 0) {
+				alert('도착한 선물이 없습니다.');
+				return;
+			} else {
+				window.open("http://item2.naver.com/GiftConfirmForm.nhn","receivepop","width=400,height=328,scrollbars=no");
+			}
+		} else if (elInspect.style.display == "block") {
+			top.location.href = "http://item2.naver.com";
+			return;
+		}
+	}
+
+	// 메세지 도착 popup
+	function MessageReceivePop() {
+		window.open("http://item2.naver.com/GiftConfirmReplyMessage.nhn","receivepop","width=400,height=328,scrollbars=no");
+	}
+
+//쪽지 팝업 선택시 window.location.href ='/SectionMain.nhn?linkType=onlyPaper'; 사용
+//F5 누를 경우, linkType에 onlyPaper가 넘어가면 선물 있을 경우 선물 팝업창 뜨지 않는다.
+//이를 방지하기 위한 작업
+var version = navigator.appVersion;
+
+function resetReloadURL(e)
+{
+	var keycode =(window.event) ? event.keyCode : e.keyCode;
+
+	if ((version.indexOf('MSIE') != -1))
+		{
+			if(keycode == 116)
+			{
+				event.keyCode = 0;
+				event.returnValue = false;
+				window.location.href ='/SectionMain.nhn';
+				return false;
+			}
+		}
+		else
+		{
+			if(keycode == 116)
+			{
+				window.location.href ='/SectionMain.nhn';
+				return false;
+			}
+		}
+}
+
+document.onkeydown=resetReloadURL;
+</script>
+			<div class="user_tit">
+				<p><a href="http://blog.naver.com/MyBlog.nhn">매크로</a> 님</p>
+				<a href="http://nid.naver.com/nidlogin.logout?returl=http://section.blog.naver.com" class="btn_out">로그아웃</a>
+			</div>
+			<!--  메일, 쪽지, 네이버 코인, 선물, 친구 각각의  데이터 표시 영역에 Id 속성 추가. -->
+			<ul class="userdata">
+				<li class="u_mail">
+					<a href="http://mail.naver.com" class="rollover" onclick="clickcr(this,'myi.mail','','',event);">
+		                <span class="sp_aside user_mail_i">메일</span>
+		                <em id="userdataMail" style="display:none;"><span class="sp_aside user_mail_v">읽기</span></em>
+		                <span class="zero" style="display:block;">0</span>
+        			</a>
+				</li>
+				<li class="u_paper">
+					<a href="http://mail.naver.com/note" onclick="clickcr(this,'myi.memo','','',event);" class="rollover">
+		                <span class="sp_aside user_paper_i">쪽지</span>
+		                <em id="userdataPaper" style="display:none;"><span class="sp_aside user_mail_v">읽기</span></em>
+		                <span class="zero" style="display:block;">0</span>
+		        	</a>
+				</li>
+				<li>
+					<a href="https://bill.naver.com/pay/wallet/myInfo.nhn?m=coinInfo" class="rollover" onclick="clickcr(this,'myi.coin','','',event);" target="_blank">
+		                <span class="sp_aside naver_coin_i">네이버캐쉬</span>
+		                <em id="userdataNaverCoin" style="display:none;"><span class="sp_aside user_identify_v">확인</span></em>
+		                <span class="zero" style="display:block;">0</span>
+		                <span style="display:none;padding-top: 4px;" class="inspect">점검중</span>
+			        </a>
+				</li>
+				<li  class="end">
+					<a href="#" onclick="giftReceivePop('userdataGift');clickcr(this,'myi.gift','','',event);return false;" class="rollover">
+		                <span class="sp_aside naver_gift_i">선물</span>
+		                <em id="userdataGift" style="display:none;"><span class="sp_aside user_identify_v">확인</span></em>
+		                <span class="zero" style="display:block;">0</span>
+		                <span style="display:none;padding-top: 4px;" class="inspect">점검중</span>
+		        	</a>
+				</li>
+			</ul>
+			<!--  메일, 쪽지, 네이버 코인, 선물, 친구 각각의  데이터 표시 영역에 Id 속성 추가 끝.  -->
+
+			<div class="user_news template2">
+				<!-- 0522수정 -->
+				<!-- 내 블로그 소식 -->
+				<h3 class="h_myblognews">
+					<!-- [D] 클릭시 a에 class="on" 추가(내가남긴글 탭 클릭시에는 on클래스가 빠져야 합니다) -->
+					<a href="#" id="tabMyBlogNewsButton" onClick="clickcr(this,'myi.blogupdated','','',event);showMyBlogNewsTab();return false;" class="on"><em class="blind">내블로그 소식</em></a>
+				</h3>
+				<div class="mypost_area" id="myBlogNews">
+					<div class="mypost_info"><a href="http://blog.naver.com/MyBlog.nhn" class="visit">오늘 방문수 <em>2</em></a><a href="http://admin.blog.naver.com/thewin11/buddy/relation" class="statistics"><span>서로이웃 신청</span> <em>0</em></a></div>
+					<ul class="mypost_news" id="newsListArea">
+						<li style="height:195px"></li>
+					</ul>
+				</div>
+				<div class="mypost_paging" id="blogNewsPaging">
+					<a href="#" class="btn_reload" onclick="showMyBlogNewsReload();return false;"><span class="blind">새로고침</span></a>
+					<!-- [D] 이전 다음이 있을경우 이전 class="prev_on", 다음 class="next_on" 추가 -->
+					<span class="btn_paging" id="pagingButtons"><a href='#' class='' onclick='return false;'><span class='blind'>이전</span></a><a href='#' class='' onclick='return false;'><span class='blind'>다음</span></a></span>
+					<a href="http://admin.blog.naver.com/AdminMain.nhn?blogId=thewin11&Redirect=StatSummary" class="btn_stats">통계보기</a>
+				</div>
+				<h3 class="mywritenews">
+					<!-- [D] 클릭시 a에 class="on" 추가(내블로그 소식 탭 클릭시에는 on클래스가 빠져야 합니다) -->
+					<a href="#" id="myWriteNewsButton" onClick="clickcr(this,'myi.myactiontab','','',event);showMyWriteNews();return false;"><em class="blind">내가 남긴 글</em></a>
+				</h3>
+				<div  id="myWriteNews" style="display:none;">
+					<ul class="mywritenews_lst" id="myWriteNewsList">
+					</ul>
+
+					<!-- 0604 추가 -->
+					<div id="myWriteNewsNoList" class="mywritenews_lst" style="display:none;"><li>공감한 글이 없습니다.</li></div>
+					<!--// 0604 추가 -->
+
+					<div class="paginate paginate_v1" id="commentPageNavi" style="display:none;">	<!--  id="commentPageNavi" 속성을 추가. -->
+
+					</div>
+				</div>
+				<!--// 내가 남긴 글소식  -->
+				<!--// 0522수정 -->
+
+			</div>
+			<ul class="user_btns">
+				<li><a href="http://blog.naver.com/MyBlog.nhn" class="btn_set btn_item1" onclick="clickcr(this,'gob.myblog','','',event);"><span>내 블로그</span></a></li>
+				<li>
+					<a href="#" class="btn_set btn_item2 _rosRestrictAll" onclick="checkReadOnly(this);"><span>포스트쓰기</span></a>
+				</li>
+				<li> 
+					<a href="#" class="btn_set btn_item3 btn_goNeighbor" onclick="clickcr(this,'gob.neighbor','','',event);return false;"><span>이웃블로그</span></a>
+
+					<!--  이웃 블로그 가기 시작 -->
+					<div class="neighbor_list" id="neighborhoodList" style="position:absolute; top:54px; right:0; display:none;"><!--  id="neighborhoodList" 속성  추가  -->
+						<div class="navigation">
+							
+							<div class="s-box unit" style="width:51px"><span class="s-label">그룹</span>
+								<div class="s-layer grouplist" style="display:none;"><!-- 레이어 -->
+									<ul style="width:152px;" class="neighbor_navlist group">
+										<li><a href="" onclick="return false;" class="-1">그룹전체</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="s-box last-child unit" style="width:55px"><span class="s-label">가나다</span>
+								<div class="s-layer filterlist" style="display:none;"><!-- 레이어 -->
+									<ul class="neighbor_navlist order" style="width:79px;">
+										<li><a href="" onclick="return false;" class="orderByName">블로그명순</a></li>
+										<li><a href="" onclick="return false;" class="orderByNick">이웃별명순</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="unit search">
+								<div class="box-search">
+									<input type="text" name="" class="text_search" value="별명, 블로그명, ID" onfocus="this.value=this.onfocus='';" />
+								</div>
+								<a href="" onclick="return false;" style="float:left;"><img src="http://blogimgs.naver.net/section/blank.gif" width="36" height="20" alt="검색" class="box-search_btn" style="margin:0"/></a>
+							</div>
+						</div>
+						<!-- 목록 -->
+						<div class="list" style="height:451px;overflow:auto;overflow-x:hidden;">
+							<div class="t"></div>
+							<div class="list_content"></div>
+						</div>
+						<!-- 페이징 -->
+						 <div class="bottom"><a href="http://admin.blog.naver.com/AdminMain.nhn?blogId=thewin11&Redirect=BuddyShortcut" target="_blank"><span class="btn_sub">순서설정</span></a>
+							<div id="paginate" class="paginate2"><a href="#" class="pre">이전</a><a href="#" class="next">다음</a></div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<!--  이웃 블로그 가기 끝-->
+			
+			<form id="blogNewsForm" method="post">
+				<input type="hidden" name="messageTimeKey">
+				<input type="hidden" name="catId">
+				<input type="hidden" name="redirectUrl">
+			</form>
+
+			<!-- 버튼 클릭시 호출하는 함수 시작 -->
+			<script type="text/javascript">
+			/* 내 블로그 소식  리스트 보여주기 하는 부분 함수 */
+			function showMyBlogNewsTab(){
+				section.myBlogNews.showMyBlogNewsList(section.myBlogNews.nPageNum);
+			};
+			function showMyBlogNewsReload(){
+				section.myBlogNews.showMyBlogNewsList(1);
+			};
+			function preMyBlogNews(){
+				var n = section.myBlogNews.nPageNum-1;
+				section.myBlogNews.showMyBlogNewsList(n, "prev");
+			};
+			function nextMyBlogNews(){
+				var n = section.myBlogNews.nPageNum+1;
+				section.myBlogNews.showMyBlogNewsList(n, "next");
+			};
+			function deleteBlogNews(sCatId, sMessageTimeKey){
+				section.myBlogNews.deleteBlogNews(sCatId, sMessageTimeKey);
+			};
+			function readBlogNews(url, sCatId, sMessageTimeKey){
+				var elForm = $('blogNewsForm');
+				elForm.action = section.myBlogNews.sReadURL;
+				elForm.messageTimeKey.value = sMessageTimeKey;
+				elForm.catId.value = sCatId;
+				elForm.redirectUrl.value = url;
+				elForm.submit();
+//				location.href=section.myBlogNews.sReadURL+"?messageTimeKey=" + sMessageTimeKey + "&catId=" + sCatId + "&redirectUrl="+encodeURIComponent(url);
+			};
+
+			/*내가 남긴 글 소식 보여주기 하는 부분 함수*/
+
+			function showMyWriteNews(n){
+				section.myWriteNews.showMyWriteNews(n);
+				utility.writeNewLcsNonGdid("sti","blog_mywritingcom");
+			};
+
+			function showMyTrace(n) {
+				section.myWriteNews.showMyTrace(n);
+				utility.writeNewLcsNonGdid("sti","blog_mywritingcom");
+			}
+
+			</script>
+			<!-- 버튼 클릭시 호출하는 함수 끝.-->
+			<!-- 내 블로그 소식, 내가 남긴 글 소식,이웃 블로그 가기  javascript 부분 끝  2008.05 Ajax UI 2Team-->
+
+
+			<!-- window.onload 추가 부분 시작.-->
+			<script type="text/javascript">
+			window.onload = pageLoadFunc;
+			function pageLoadFunc(){
+				ajaxPageeLoadFunc();
+			}
+
+			function ajaxPageeLoadFunc(){			// Aajx UI Team 페이지 로딩시 호출하는 함수.
+				var sSectionUrl = "http://section.blog.naver.com";
+				var sMylogUrl = "http://blog.naver.com";
+				var sAdminUrl = "http://admin.blog.naver.com";
+
+				/*
+				* 내 블로그 소식, 내가 남긴 글 소식, 이웃블로그 가기에 대한 초기화 함수.
+				*/
+				// 내 블로그 소식 옵션
+				var myBlogNewsOp = {
+					'myBlogNews' : 'myBlogNews',					// 내 블로그 소식 div Element의 Id속성 값.
+					'myBlogNewsButton' : 'myBlogNewsButton',		// 내 블로그 소식 버튼 Id 속성 값.
+					'blogUserId' : "thewin11",
+					'url' : {
+						'mylog' : sMylogUrl,
+						'admin' : sAdminUrl,
+						'list' : sSectionUrl+'/main/MyBlogNewsListAsync.nhn',		// Ajax 목록 통신할 때 요청할 url
+						'read' : sSectionUrl+'/main/MyBlogNewsRead.nhn',
+						'delete' : sSectionUrl+'/main/MyBlogNewsTraceDeleteAsync.nhn'		// Ajax 목록 통신할 때 요청할 url
+					}
+				}
+				section.myBlogNews.init(myBlogNewsOp);									//초기화
+
+				// 내가 남긴 글소식 옵션
+				var myWriteNewsOP = {
+					'myWriteNews' : 'myWriteNews',													// 내가 남긴 글 소식의 div의 id 속성 값.
+					'myWriteNewsButton' : 'myWriteNewsButton',									// 내가 남긴 글 소식 버튼 Id 속성 값.
+					'myWriteNewsList' : 'myWriteNewsList',											// 내가 남긴 글 소식을 뿌려주는 ul의 Id 속성 값
+					'myWriteNewsNoList' : 'myWriteNewsNoList',											// 내가 남긴 글 소식에 리스트가 없을 때 보여줄 div Element
+					'commentPageNavi' : 'commentPageNavi',											// 내가 남긴 글 소식에서 공감글의 페이지 네비게이션 id 속성 값.
+					'url' : {																		// ajax call 하는 URL
+						'myTraceList' : sSectionUrl+'/main/MyTraceNewsListAsync.nhn',
+						'myTraceDelete' : sSectionUrl+'/main/MyTraceNewsDeleteAsync.nhn'
+					}
+				};
+
+				section.myWriteNews.init(myWriteNewsOP);		//초기화
+
+				/*
+				* user data(메일, 쪽지, 네이버 코인, 선물, 친구) 업데이트 함수 호출 시작.
+				*/
+				var sURL = "http://section.blog.naver.com/main/MyBlogCounterAsync.nhn";		// ajax call URL
+				var oUserdataOP = {
+					'container' : 'userdata',												// 유저 데이터가 보여질 대상 Container Element의 ClassName;
+					'mail' :  'userdataMail',												// 유저의 메일 데이터가 보여질 대상 Element의 Id 속성 값.
+					'paper' :  'userdataPaper',												// 유저의 쪽지  데이터가 보여질 대상 Element의 Id 속성 값.
+					'naverCoin' :  'userdataNaverCoin',									// 유저의 네이버 코인 데이터가 보여질 대상 Element의 Id 속성 값.
+					'gift' :  'userdataGift' 												// 유저의 선물 데이터가 보여질 대상 Element의 Id 속성 값.
+				}
+				section.updateUserData.getUserData(sURL,oUserdataOP);
+				/*
+				* user data(메일, 쪽지, 네이버 코인, 선물, 친구) 업데이트 함수 호출 끝.
+				*/
+
+				showMyBlogNewsTab();		//내 블로그 소식 보기 함수 호출.
+			}
+
+			var oGroupList = {"isSuccess":true,"result":[{"id":1,"type":1,"name":"초창기 그룹","open":true,"buddyCount":6,"listOrder":1},{"id":2,"type":1,"name":"음악을 사랑하는 분들","open":true,"buddyCount":135,"listOrder":2},{"id":3,"type":1,"name":"메크로프로젝트","open":true,"buddyCount":11,"listOrder":3}],"totalCount":3,"errorMsg":"","errorCode":""};
+
+			</script>
+			<!-- window.onload 추가 부분 끝. -->
+			<script type="text/html" id="tpl_alert_noSearchWord">검색어를 입력 해 주세요.</script>
+			<script type="text/html" id="tpl_alert_shortSearchWord">검색어는 한글 두글자, 영문 네글자 이상이어야 합니다.</script>
+			<script type="text/html" id="tpl_node">
+				<li class="tree-node">
+					<div>
+						<div class="ellipsis2"><div class="{=relation}"><span class="nickname">{=nickname}</span><span class="bar">{=bar}</span><a href="{=linkurl}" target="_blank" title="{=title}">{=name}</a></div></div>
+					</div>
+				</li>
+			</script>
+			<script type="text/html" id="tpl_eof_by_search">
+				<div class="nocontent">검색하신 별명과 ID에 대한 이웃이 없습니다.<br/>다시 한번 확인 후 검색해주세요</div>
+			</script>
+			<script type="text/html" id="tpl_eof_nobuddy">
+				<div class="nocontent">추가하신 이웃이 없습니다. 관심있는 이웃을 추가해보세요</div>
+			</script>
+			<script type="text/html" id="tpl_eof_by_choose">
+				<div class="nocontent">해당하는 조건의 이웃이 없습니다</div>
+			</script>
+			<script type="text/html" id="tpl_list">
+				<dl>
+					<dt>{=header}</dt>
+					<dd>
+					<ul id="neighborhoodList" class="tree">{=nodes}</ul>
+					</dd>
+				</dl>
+			</script>
+			<script type="text/html" id="tpl_group">
+				<a href="" onclick="return false;" class="{=groupId}">{=groupName}</a>
+			</script>
+			<script type="text/html" id="tpl_listhead">
+				{=type} <em>({=totalcount})</em>
+			</script>
+
+			<div class="template_advertisement" id="addiv" name="addiv"><iframe id="f240240" name="f240240" width="240" height="240" border="0" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" align="center"></iframe></div>
+
+			
+
+
+			<div class="normal_list template notopborder" id="noticeArea"><!-- 091212 notopborder추가 -->
+				<h3> <span class="sp_aside bg_tit">공지사항</span></h3>
+				<a href="http://section.blog.naver.com/sub/Notice.nhn" class="more_view" onclick="clickcr(this,'not.more','','',event);">더보기</a>
+
+				<ul class="arw">
+<li><a href="http://blogpeople.blog.me/150149483828"><strong>추석포스팅 이벤트 당첨자 안내</strong></a> 
+
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000027087260"><strong>[11일] 서비스 점검 안내</strong></a> 
+
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000027089167"><strong>카메라앱 이벤트 당첨 안내</strong></a> 
+
+
+
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000026899403"><strong>안드로이드앱ㅣ 위젯#3 출시</strong></a> 
+
+
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000026899356"><strong>포스트 전용뷰어 오픈</strong></a> 
+
+
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000026886696"><strong>아이폰앱 | 대문사진 기능 출시</strong></a> 
+
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000026726263">통계 보관기간 변경 안내 </a> 
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000026692738"><strong>[9월 15일]위자드팩토리 위젯 종료</strong></a> 
+
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000026586175"><strong> 블로그앱 | 주변글 보기 오픈 </strong></a> 
+
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000026586184"><strong> 안드로이드앱 | 내블로그 위젯 출시  </strong></a> 
+
+
+
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000026334387"> 안드로이드앱 | 바로가기위젯 출시!</a> 
+
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000026403794"> [19일] 동영상 재생 환경 개선</a>
+
+
+<li><a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000026109093">[개선] SNS에 포스트 동시등록하기 </a> 
+
+
+
+			</div>
+			
+			<div class="mobile_banner3">
+                <div class="mobile_set">
+                    <h3> <span class="sp_aside bg_mobile">모바일로 만나는 블로그</span></h3>
+                    <ul class="mobile_set_ls">
+                        <li class="item">
+                        	<a class="cover upper" href="http://mobile.naver.com/application/blog.nhn" target="_blank" onclick="clickcr(this,'int*m.left1','','',event);" name="eventItem">애플리케이션</a>
+                        	<a class="desc lower" href="http://mobile.naver.com/application/blog.nhn" target="_blank" onclick="clickcr(this,'int*m.left1','','',event);" name="eventItem">아이폰, 안드로이드, 윈도모바일에서 만나는 블로그! - 애플리케이션 받기</a>
+                        </li>
+                        <li class="item2">
+                        	
+                        	<a class="cover upper" href="#" onclick="sectionGNBVeiw.openMobileBlogPop('http://section.blog.naver.com/popup/pop_mobile_blog.jsp'); clickcr(this,'int*m.right1','','',event); return false;" name="eventItem">모바일웹</a>
+                        	<a class="desc lower" href="#" onclick="sectionGNBVeiw.openMobileBlogPop('http://section.blog.naver.com/popup/pop_mobile_blog.jsp'); clickcr(this,'int*m.right1','','',event); return false;" name="eventItem">모바일 브라우저에서도 자유로운 모바일 블로깅 - 모바일웹 보기</a>
+                        </li>
+                        <li class="item3">
+                        	<a class="cover upper" href="http://admin.blog.naver.com/Go.nhn?action=config/sms" target="_blank" onclick="clickcr(this,'int*m.left2','','',event);" name="eventItem">문자 알리미</a>
+                        	<a class="desc lower" href="http://admin.blog.naver.com/Go.nhn?action=config/sms" target="_blank" onclick="clickcr(this,'int*m.left2','','',event);" name="eventItem">SKT, KT, LGT 가입자 모두 덧글과 안부글을 문자로 - 설정하기</a>
+                        </li>
+                        <li class="item4">
+                        	<a class="cover upper" href="http://mobile.naver.com/mobile369/blog.nhn" target="_blank" onclick="clickcr(this,'int*m.right2','','',event);" name="eventItem">#1111 포스팅</a>
+                        	<a class="desc lower" href="http://mobile.naver.com/mobile369/blog.nhn" target="_blank" onclick="clickcr(this,'int*m.right2','','',event);" name="eventItem">휴대폰 문자로 간편하게 전송하는 실시간 포스팅 - 이용방법 보기</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile_set">
+                    <h3> <span class="sp_aside bg_fun">새롭게 즐기는 블로그</span></h3>
+                    <ul class="mobile_set_ls2">
+                        <li class="item">
+                        	<a class="cover upper" href="http://apps.naver.com" target="_blank" onclick="clickcr(this,'int*n.left1','','',event);" name="eventItem">소셜앱스</a>
+                        	<a class="desc lower" href="http://apps.naver.com" target="_blank" onclick="clickcr(this,'int*n.left1','','',event);" name="eventItem">[NEW] 이웃들과 다양한 게임, 컨텐츠 앱을 만나보세요! - 소셜앱스란</a>
+                        </li>
+                        <li class="item2">
+                        	<a class="cover upper" href="http://campaign.naver.com/greenReview" onclick="clickcr(this,'int*n.right1','','',event);" name="eventItem">그린리뷰</a>
+                        	<a class="desc lower" href="http://campaign.naver.com/greenReview" onclick="clickcr(this,'int*n.right1','','',event);" name="eventItem">나의 경험과 솔직한 의견이 반영된 건강한 리뷰쓰기 - 그린리뷰란</a>
+                        </li>
+                        <li class="item3">
+                        	<a class="cover upper" href="http://section.blog.naver.com/sub/InstallConnectWidget.nhn" onclick="clickcr(this,'int*n.left2','','',event);" name="eventItem">이웃커넥트</a>
+                        	<a class="desc lower" href="http://section.blog.naver.com/sub/InstallConnectWidget.nhn" onclick="clickcr(this,'int*n.left2','','',event);" name="eventItem">내 이웃을 한눈에 소개할 수 있는 이웃 커넥트 위젯! - 위젯 설치하기</a>
+                        </li>
+                        <li class="item4">
+                        	<a class="cover upper" href="/sub/Notice.nhn?board=/read/1000003326/10000000000020412728" onclick="clickcr(this,'int*n.right2','','',event);" name="eventItem">blog.me</a>
+                        	<a class="desc lower" href="/sub/Notice.nhn?board=/read/1000003326/10000000000020412728" onclick="clickcr(this,'int*n.right2','','',event);" name="eventItem">더 짧고 세련된 블로그 주소를 무료로 사용해 주세요 - Blog.me란</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btn btn_on" style="right:18px"><button type="button" onclick="clickcr(this,'int.page1','','',event);"><span>모바일로 만나는 블로그 보기</span></button></div>
+                <div class="btn" style="right:7px"><button type="button" onclick="clickcr(this,'int.page2','','',event);"><span>새롭게 즐기는 블로그 보기</span></button></div>
+            </div>
+			
+			
+			<div class="normal_list template notopborder mtl7"> <!-- //091212수정 - notopborder, mtl7이라는 클래스가 더 붙습니다. -->
+				<h3> <span class="sp_aside bg_tit2">MEET the BOLGGER</span></h3>
+				<a href="/sub/MeetBloggerList.nhn" class="more_view" onclick="clickcr(this,'brd.more','','',event);" id="moreMeetBlogger">더보기</a>
+				<ul class="arw">
+				
+					<li><a href="/sub/MeetBloggerView.nhn?seq=73" name="meetBloggerItem">터키 요리 전문가 이연경</a></li>
+				
+					<li><a href="/sub/MeetBloggerView.nhn?seq=72" name="meetBloggerItem">대중음악평론가 차우진</a></li>
+				
+					<li><a href="/sub/MeetBloggerView.nhn?seq=71" name="meetBloggerItem">경마 블로거 박영남</a></li>
+				
+					<li><a href="/sub/MeetBloggerView.nhn?seq=70" name="meetBloggerItem">건축가 겸 가수 양진석</a></li>
+				
+					<li><a href="/sub/MeetBloggerView.nhn?seq=69" name="meetBloggerItem">한학자 최이산</a></li>
+				
+				</ul>
+			</div>
+
+			
+
+
+		<!-- 091212추가 // 이용팁 추가   지난 블로그 리스트는 삭제-->
+			<div class="naverblogtip template">
+				<h3><a href="http://blog.naver.com/blogpeople?Redirect=Category&parentCategoryNo=7" target="_blank" class="sp_aside h_blogtip"><span class="blind">블로그 이용 팁</span></a></h3>
+        		<h3><a href="/sub/Rights.nhn" target="_top" class="sp_aside h_right"><span class="blind">포스트 권리 보호하기</span></a></h3>
+
+				<ul>
+				<li><a href="http://help.naver.com/ops/step2/mail.nhn?upCatg=218" target="_blank" class="sp_aside ques"><span class="blind">문의하기</span></a></li>
+        		<li><a href="http://help.naver.com/ops/step2/query.nhn" target="_blank" class="sp_aside alert"><span class="blind">신고하기</span></a></li>
+				</ul>
+
+			</div>
+			<!-- //091212추가 -->
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+	<hr />
+
+
+	<div class="theme_category">
+		
+
+
+
+		<h3 class="no_view">테마 카테고리</h3>
+		<ul>
+
+	
+		<li style="width:270px;"><span class="sp_common h_cate1"><em class="blind">엔터테이먼트 예술</em></span>
+			<ul>
+	
+	
+	
+	
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=5" name="directoryItem">문학·책</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=6" name="directoryItem">영화</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=8" name="directoryItem">미술·디자인</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=7" name="directoryItem">공연·전시</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=11" name="directoryItem">음악</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=9" name="directoryItem">드라마</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=12" name="directoryItem">스타·연예인</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=13" name="directoryItem">만화·애니</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=10" name="directoryItem">방송</a></li>
+	
+			</ul>
+		</li>
+
+	
+	
+		<li style="width:255px;"><span class="sp_common h_cate2"><em class="blind">생활 노하우 쇼핑</em></span>
+			<ul>
+	
+	
+	
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=14" name="directoryItem">일상·생각</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=15" name="directoryItem">육아·결혼</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=16" name="directoryItem">애완·반려동물</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=17" name="directoryItem">좋은글·이미지</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=18" name="directoryItem">패션·미용</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=19" name="directoryItem">인테리어·DIY</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=20" name="directoryItem">요리·레시피</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=21" name="directoryItem">상품리뷰</a></li>
+	
+			</ul>
+		</li>
+
+	
+	
+	
+		<li style="width:230px;"><span class="sp_common h_cate3"><em class="blind">취미 여가 여행</em></span>
+			<ul>
+	
+	
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=22" name="directoryItem">게임</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=23" name="directoryItem">스포츠</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=24" name="directoryItem">사진</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=25" name="directoryItem">자동차</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=26" name="directoryItem">취미</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=27" name="directoryItem">국내여행</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=28" name="directoryItem">세계여행</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=29" name="directoryItem">맛집</a></li>
+	
+			</ul>
+		</li>
+
+	
+	
+	
+	
+		<li style="width:215px;" class="end"><span class="sp_common h_cate4"><em class="blind">지식동향</em></span>
+			<ul class="small2">
+	
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=30" name="directoryItem">IT·컴퓨터</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=31" name="directoryItem">사회·정치</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=32" name="directoryItem">건강·의학</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=33" name="directoryItem">비즈니스·경제</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=35" name="directoryItem">어학·외국어</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=34" name="directoryItem">교육·학문</a></li>
+	
+			</ul>
+		</li>
+
+		</ul>
+
+
+	</div>
+
+	<hr />
+
+	
+
+
+	
+	<div id="footer2">
+		<ul>
+		<li class="first">
+			<a href="http://www.naver.com/rules/service.html">이용약관</a></li>
+		<li>
+			<a href="http://blog.naver.com/post/blog_use.htm">블로그 운영원칙</a></li>
+		<li>
+			<a href="http://www.naver.com/rules/privacy.html"><strong>개인정보취급방침</strong></a></li>
+		<li>
+			<a href="http://www.naver.com/rules/disclaimer.html">책임의 한계와 법적고지</a></li>
+		<li>
+			<a href="/sub/Rights.nhn" target="_top">포스트 권리 보호하기</a></li>
+		<li>
+			<a href="http://help.naver.com/claim_main.asp">게시중단요청서비스</a></li>
+		<li>
+			<a href="http://help.naver.com/ops/step2/faq.nhn?parentId=41" target="_blank">블로그 도움말</a></li>
+		<li>
+			<a href="http://help.naver.com/ops/step2/mail.nhn?upCatg=218" target="_blank">문의하기</a></li>
+		</ul>
+
+		<address>
+			<a href="http://www.nhncorp.com/" target="_blank" class="logo"><span class="blind">NHN</span></a>
+			<em>Copyright &copy;</em>
+			<a href="http://www.nhncorp.com/" target="_blank">NHN Corp.</a>
+			<span>All Rights Reserved.</span>
+		</address>
+	</div>
+	
+
+
+
+	
+
+
+
+
+
+</div>
+
+
+
+	<script language="javascript" src="http://happyimg2.naver.com/application/real/congad/cc/blog.js"></script>
+
+
+<script type="text/javascript" src="/nversioning/SectionMain-1300171.js" charset="UTF-8"></script>
+<script type="text/javascript">
+/*
+(function() {
+    function async_load(){
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        //s.async = true;
+        s.src = 'http://yourdomain.com/script.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    }
+    window.attachEvent ? window.attachEvent('onload', async_load) : window.addEventListener('load', async_load, false);
+})();
+*/
+
+	$Fn(function() {
+		/* onload event에서 iframe 페이지 동적 로딩*/
+		if($("f240240")) {
+	    	$("f240240").src = "http://ad.naver.com/adshow?unit=206B";
+		}
+
+	    if(isBlogMe == 'true') {
+	    	writeNewLcsNonGdid('', '', isBlogMe);
+	    }
+	}).attach(window, 'load');
+
+
+	if(isPageError) {
+		initDumpPage();
+	}
+
+	if($('_closeSectionMainLeftBanner')) {
+		$Fn(function() {
+	    	if($Element("sectionMainLeftBanner")){
+	    		$Element("sectionMainLeftBanner").hide();
+	    	}
+	    	$Cookie().set(CookieHolder.SECTION_MAIN_LEFT_BANNER.KEY, "close", CookieHolder.SECTION_MAIN_LEFT_BANNER.DURATION);
+		}).attach($('_closeSectionMainLeftBanner'), 'click');
+	}
+</script>
+</body>
+</html>
